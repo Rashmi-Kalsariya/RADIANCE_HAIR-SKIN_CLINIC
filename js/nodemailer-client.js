@@ -30,7 +30,7 @@ function sendContactEmail() {
     submitBtn.disabled = true;
 
     // Send to backend (works with both local server and Netlify functions)
-    fetch('https://radiance-hair-skin-clinic.onrender.com/contactus.html', {
+    fetch('https://radiance-hair-skin-clinic.onrender.com/api/contact', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -84,7 +84,7 @@ function sendNewsletterEmail(email) {
     submitBtn.disabled = true;
 
     // Send to Nodemailer backend
-    fetch('https://radiance-hair-skin-clinic.onrender.com/aboutus.html', {
+    fetch('https://radiance-hair-skin-clinic.onrender.com/api/newsletter', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
