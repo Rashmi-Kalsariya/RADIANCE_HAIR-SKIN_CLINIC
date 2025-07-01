@@ -30,7 +30,7 @@ function sendContactEmail() {
     submitBtn.disabled = true;
 
     // Send to backend (works with both local server and Netlify functions)
-    fetch('https://radiance-hair-skin-clinic.onrender.com/api/contact', {
+    fetch('https://radiance-hair-skin-clinic.onrender.com/contact', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -42,24 +42,24 @@ function sendContactEmail() {
             message: message
         })
     })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            showMessage('success', data.message);
-            document.getElementById('contactForm').reset();
-        } else {
-            showMessage('error', data.message || 'Failed to send email');
-        }
-    })
-    .catch(error => {
-        console.error('Email sending error:', error);
-        showMessage('error', 'Sorry, there was an error sending your message. Please check your internet connection and try again.');
-    })
-    .finally(() => {
-        // Reset button
-        submitBtn.innerHTML = originalText;
-        submitBtn.disabled = false;
-    });
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                showMessage('success', data.message);
+                document.getElementById('contactForm').reset();
+            } else {
+                showMessage('error', data.message || 'Failed to send email');
+            }
+        })
+        .catch(error => {
+            console.error('Email sending error:', error);
+            showMessage('error', 'Sorry, there was an error sending your message. Please check your internet connection and try again.');
+        })
+        .finally(() => {
+            // Reset button
+            submitBtn.innerHTML = originalText;
+            submitBtn.disabled = false;
+        });
 
     return false;
 }
@@ -84,7 +84,7 @@ function sendNewsletterEmail(email) {
     submitBtn.disabled = true;
 
     // Send to Nodemailer backend
-    fetch('https://radiance-hair-skin-clinic.onrender.com/api/newsletter', {
+    fetch('https://radiance-hair-skin-clinic.onrender.com/contact', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -93,25 +93,25 @@ function sendNewsletterEmail(email) {
             email: email
         })
     })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            showMessage('success', data.message);
-            const emailInput = submitBtn.closest('form').querySelector('.newsletter-email');
-            if (emailInput) emailInput.value = '';
-        } else {
-            showMessage('error', data.message || 'Failed to subscribe');
-        }
-    })
-    .catch(error => {
-        console.error('Newsletter subscription error:', error);
-        showMessage('error', 'Sorry, there was an error processing your subscription. Please try again later.');
-    })
-    .finally(() => {
-        // Reset button
-        submitBtn.innerHTML = originalText;
-        submitBtn.disabled = false;
-    });
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                showMessage('success', data.message);
+                const emailInput = submitBtn.closest('form').querySelector('.newsletter-email');
+                if (emailInput) emailInput.value = '';
+            } else {
+                showMessage('error', data.message || 'Failed to subscribe');
+            }
+        })
+        .catch(error => {
+            console.error('Newsletter subscription error:', error);
+            showMessage('error', 'Sorry, there was an error processing your subscription. Please try again later.');
+        })
+        .finally(() => {
+            // Reset button
+            submitBtn.innerHTML = originalText;
+            submitBtn.disabled = false;
+        });
 
     return false;
 }
@@ -161,7 +161,7 @@ function showMessage(type, message) {
     `;
 
     // Add close functionality
-    messageDiv.querySelector('.close').onclick = function() {
+    messageDiv.querySelector('.close').onclick = function () {
         messageDiv.remove();
     };
 
@@ -193,11 +193,11 @@ style.textContent = `
 document.head.appendChild(style);
 
 // Initialize contact form
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Contact form submission
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
+        contactForm.addEventListener('submit', function (e) {
             e.preventDefault();
             sendContactEmail();
         });
@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Newsletter form submissions
     const newsletterForms = document.querySelectorAll('.newsletter-form');
     newsletterForms.forEach(form => {
-        form.addEventListener('submit', function(e) {
+        form.addEventListener('submit', function (e) {
             e.preventDefault();
             const emailInput = form.querySelector('.newsletter-email');
             if (emailInput) {
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Newsletter button clicks
     const newsletterBtns = document.querySelectorAll('.newsletter-btn');
     newsletterBtns.forEach(btn => {
-        btn.addEventListener('click', function(e) {
+        btn.addEventListener('click', function (e) {
             e.preventDefault();
             const form = btn.closest('form');
             const emailInput = form.querySelector('.newsletter-email');
