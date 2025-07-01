@@ -1,0 +1,2438 @@
+/*==========================================================================================
+								RADIANCE SPA - ELEGANT THEME COLORS
+==========================================================================================*/
+/*
+Color Palette:
+- #0F3B4A (Dark Teal) - Primary dark sections
+- #C59D2F (Golden) - Accent color for highlights
+- #FFFFFF (White) - Clean backgrounds and text
+- #F5EAD1 (Cream) - Light section backgrounds
+- #1D2A33 (Dark Blue-Gray) - Main text and headings
+- #2E6D73 (Medium Teal) - Secondary accents
+- #FDF9F5 (Off-White) - Subtle light backgrounds
+*/
+
+/*=============================================
+			Primary Text Colors
+=============================================*/
+a,
+.clr,
+p a,
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.hb-info li a:hover,
+.hb-navigation ul li:hover a,
+.v2 .hb-info li span a:hover,
+.hb-navigation ul li .sub-menu li a:hover,
+.v3 .hb-cartarea a:hover,
+.v3 .hb-searcharea a:hover,
+.v4 .hb-searcharea a:hover,
+.v4 .hb-cartarea a:hover,
+.hb-homeslider.v4 .hb-slidercontent a:hover,
+.hb-whychooseus-list li:after,
+.hb-counter h3,
+.pricingcontent h3 span,
+.hb-pricingbox:hover .hb-btn,
+.hb-pricingbox.active .hb-btn,
+.hb-uthername h3,
+.hb-filterbale-nav li a:hover,
+.hb-filterbale-nav li a.active,
+.hb-testimonialsthumbslider .hb-prev:hover,
+.hb-testimonialsthumbslider .hb-next:hover,
+.hb-productscontent h3 span,
+.hb-pricinglistbox li span,
+.hb-aboutusvideo .hb-video-btn:hover,
+.hb-gift-price span,
+.hb-categories ul li:after,
+.hb-postmeta-area .hb-postmeta em,
+.hb-posttage li a:hover,
+.hb-bloggrid.blogfullwidth .hb-posttitle h3 a:hover,
+.hb-pagination ul li a:hover,
+.hb-blogdetails .hb-treatmentlist li:before,
+.hb-blogdetails .hb-uthername,
+.hb-socialshare ul li a:hover,
+.hb-comment-date,
+.hb-panel h4 a:hover,
+.cart-table .price,
+.cart-list .price,
+.hb-cart-widget .price,
+.hb-content-block .hb-btn,
+.hb-shoparea-detail .price,
+.hb-categories.hb-categories2 ul a span,
+.hb-categories.hb-categories2 ul a:hover,
+.hb-shoparea-detail .social-network a:hover,
+.hb-pricingplan .tab-content .price
+{color: #C59D2F;}
+ 
+
+
+
+
+/* Secondary accent colors */
+.v2 .hb-info li i,
+.v5 .hb-searcharea a:hover,
+.v5 .hb-cartarea a:hover,
+.v5 .hb-navigation ul li:hover a,
+.v5 .hb-navigation ul li:active a,
+.v5 .hb-navigation ul li:focus a,
+.v5 .hb-withoutbackground li a:hover i,
+.v5 .hb-navigation ul li .sub-menu li a:hover,
+.hb-footer.v3 .hb-socialicons li a:hover i,
+.hb-footer.v3 .hb-socialicons li a:focus i,
+.hb-footer.v3 .hb-socialicons li a:active i,
+.hb-footer.v3 .hb-footernav li a:hover,
+.hb-footer.v3 .hb-footernav li a:active,
+.hb-footer.v3 .hb-footernav li a:focus,
+.hb-homeslider.v5 .hb-btn:hover
+{color: #2E6D73;}
+/*=============================================
+			Background Colors
+=============================================*/
+/* Small accent elements - Change to blue background with golden text */
+.hb-dropdowarrow,
+.navbar-toggle,
+.hb-panel h4:after,
+.hb-tags ul li .hb-tagbtn:hover,
+.search-popup .close-btn
+{
+    background: #0F3B4A !important;
+    color: #C59D2F !important;
+}
+
+/* Buttons and interactive elements */
+.hb-btn,
+.hb-socialicons li a,
+.hb-cart li .hb-btn.changehover:hover,
+.hb-paradiseiconbox,
+.hb-btn.bdr:hover:after,
+.hb-roundicon li .hb-g-icon.change-bg,
+.hb-giftcertificates-box:hover .hb-giftbtn,
+.hb-content-block,
+.tab-holder .tab-list .active a,
+.tab-holder .tab-list a:hover,
+#back-top,
+.hb-shoparea-detail .img-holder .hb-zoom-btn
+{background: #0F3B4A;}
+
+/* Social icons - ensure they're blue by default */
+.hb-socialicons li a,
+.hb-socialicons.hb-socialicons-sm li a {
+    background: #0F3B4A !important;
+    background-color: #0F3B4A !important;
+    color: #FFFFFF !important;
+}
+
+.hb-socialicons.hb-socialicons-sm li a:hover {
+    background: #2E6D73 !important;
+    background-color: #2E6D73 !important;
+    color: #FFFFFF !important;
+}
+
+/* Slider arrows - default and hover states */
+.hb-prev,
+.hb-next {
+    background: #0F3B4A !important;
+    color: #FFFFFF !important;
+}
+
+.hb-prev:hover,
+.hb-next:hover {
+    background: #2E6D73 !important;
+    color: #FFFFFF !important;
+}
+
+/* Primary dark sections */
+.v2 .hb-navigationarea,
+.hb-homeslider.v4 .hb-slidercontent:after
+{background: #0F3B4A;}
+
+
+
+/* Header and special sections */
+.hb-topbar,
+.hb-footer.v2 .hb-info li:before,
+.hb-footer.v2 .hb-info li a:hover
+{background: #0F3B4A;}
+
+/* Active/hover states for testimonials and other elements */
+.countdownHolder:after,
+.hb-comingsooncounter:after,
+.hb-testimonialbox:hover .hb-testimonialcontentbox,
+.hb-testimonialbox .hb-testimonialcontentbox.active
+{background: #0F3B4A;}
+
+/* Pricing boxes handled separately above */
+/* Removed overlay effects from blog post images to prevent any background issues */
+.hb-postimage:before {
+    background: transparent !important;
+}
+
+/* Keep gallery overlay but remove from blog posts */
+.hb-gallerycontent {
+    background: rgba(15,59,74,0.85);
+}
+
+/* Secondary elements */
+.hb-footer.v3 .hb-socialicons li a,
+.hb-homeslider.v5 .hb-btn,
+.hb-sectiontitle.v3:before
+{background: #2E6D73;}
+
+/* Special slider v5 arrows */
+.hb-homeslider.v5 .hb-prev,
+.hb-homeslider.v5 .hb-next {
+    background: #0F3B4A !important;
+    color: #FFFFFF !important;
+}
+
+.hb-homeslider.v5 .hb-prev:hover,
+.hb-homeslider.v5 .hb-next:hover {
+    background: #2E6D73 !important;
+    color: #FFFFFF !important;
+}
+/*=============================================
+			Border Colors
+=============================================*/
+input:focus,
+.select select:focus,
+.form-control:focus,
+.hb-thumb figure img:not(.hb-postimage img),
+.hb-tags ul li .hb-tagbtn:hover
+{border-color: #C59D2F;}
+
+/* Ensure blog post images never get the golden border */
+.hb-postimage img,
+.hb-post .hb-postimage img,
+figure.hb-postimage img,
+.hb-postimage a img,
+.hb-post figure img,
+.hb-post figure.hb-postimage img {
+    border: none !important;
+    border-color: transparent !important;
+    border-width: 0 !important;
+}
+
+.hb-servicebox:hover .hb-serviceimg:after,
+.hb-teambox:hover .hb-teamimg:after
+{border-color: #0F3B4A;}
+
+.hb-footer.v3 .hb-socialicons li a,
+.hb-homeslider.v5 .hb-btn
+{border-color: #2E6D73;}
+
+/*=============================================
+			COMPREHENSIVE SITE-WIDE THEME
+=============================================*/
+
+/* BODY & MAIN STRUCTURE */
+body {
+    color: #1D2A33;
+    background: #FFFFFF;
+}
+
+/* HEADER & NAVIGATION */
+.hb-topbar {
+    background: #0F3B4A;
+}
+
+.hb-navigationarea {
+    background: #FFFFFF;
+    border-bottom: 1px solid #F5EAD1;
+}
+
+.hb-navigation ul li a {
+    color: #1D2A33;
+}
+
+.hb-navigation ul li a:hover {
+    color: #C59D2F;
+}
+
+/* SECTION BACKGROUNDS */
+.hb-services,
+.hb-pricingplan,
+.hb-blog,
+.hb-gallery {
+    background: #FDF9F5;
+}
+
+.hb-whychooseus,
+.hb-appointment,
+.hb-testimonial {
+    background: #F5EAD1;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+    color: #1D2A33;
+}
+
+.hb-sectiontitle h2 {
+    color: #1D2A33;
+}
+
+.hb-sectiontitle h2 span {
+    color: #C59D2F;
+}
+
+/* BUTTONS - Solid color instead of gradients */
+.hb-btn {
+    background: #0F3B4A;
+    color: #FFFFFF;
+    border: none;
+}
+
+.hb-btn:hover {
+    background: #2E6D73;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* CARDS & BOXES */
+.hb-servicebox,
+.hb-pricingbox,
+.hb-testimonialcontent {
+    background: #FFFFFF;
+    border: 1px solid #F5EAD1;
+}
+
+/* Blog posts should have NO border */
+.hb-post {
+    background: #FFFFFF;
+    border: none !important;
+}
+
+.hb-servicebox:hover {
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(15,59,74,0.1);
+}
+
+/* Removed .hb-post:hover transform effect to prevent glitches */
+
+/* Remove default active state - no box should be selected by default */
+.hb-pricingbox.active {
+    background: #FFFFFF;
+    border-color: #F5EAD1;
+}
+
+.hb-pricingbox.active h3,
+.hb-pricingbox.active .hb-pricinglist li {
+    color: #1D2A33;
+}
+
+/* Hover effects for pricing boxes */
+.hb-pricingbox:hover {
+    background: #0F3B4A !important;
+    border-color: #C59D2F;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(15,59,74,0.2);
+}
+
+.hb-pricingbox:hover h3,
+.hb-pricingbox:hover .hb-pricinglist li,
+.hb-pricingbox:hover .pricingcontent h3 {
+    color: #FFFFFF !important;
+}
+
+.hb-pricingbox:hover .pricingcontent h3 span {
+    color: #C59D2F !important;
+}
+
+/* Ensure package names are visible on hover */
+.hb-pricingbox:hover .pricingcontent h3 {
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Pricing box buttons - Solid color styling */
+.hb-pricingbox .hb-btn,
+.hb-pricingbox .hb-btn:hover,
+.hb-pricingbox .hb-btn:focus,
+.hb-pricingbox .hb-btn:active {
+    background: #0F3B4A !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hb-pricingbox:hover .hb-btn,
+.hb-pricingbox:hover .hb-btn:hover,
+.hb-pricingbox:hover .hb-btn:focus,
+.hb-pricingbox:hover .hb-btn:active {
+    background: #2E6D73 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+
+/* FOOTER */
+.hb-footer {
+    background: #0F3B4A;
+    color: #FFFFFF;
+}
+
+.hb-footer h3 {
+    color: #C59D2F;
+}
+
+.hb-footer .hb-description,
+.hb-footer .hb-info li span {
+    color: #F5EAD1;
+}
+
+.hb-footerbar {
+    background: #1D2A33;
+}
+
+.hb-copyright {
+    color: #F5EAD1;
+}
+
+/* FORMS */
+.form-control {
+    border-color: #F5EAD1;
+    color: #1D2A33;
+}
+
+.form-control:focus {
+    border-color: #C59D2F;
+}
+
+/* LINKS & ACCENTS */
+a {
+    color: #1D2A33;
+}
+
+a:hover {
+    color: #C59D2F;
+}
+
+/* PRICING & COUNTERS */
+.hb-counter h3 {
+    color: #C59D2F;
+}
+
+.pricingcontent h3 span,
+.hb-servicecontent h3 em {
+    color: #C59D2F !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Ensure pricing content is always visible */
+.pricingcontent h3 {
+    color: #2d2c40 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.pricingcontent h3 span {
+    color: #C59D2F !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+/* Additional specificity to override any conflicting styles */
+.hb-pricingbox .pricingcontent h3 span,
+.hb-pricingplan .hb-pricingbox .pricingcontent h3 span {
+    color: #C59D2F !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+    font-size: 24px !important;
+    line-height: 27px !important;
+    font-weight: 400 !important;
+    padding: 10px 0 0 !important;
+}
+
+/* SOCIAL ICONS - All variations */
+.hb-socialicons li a,
+.hb-socialicons.hb-socialicons-sm li a,
+.hb-teamcontent .hb-socialicons li a,
+.hb-team .hb-socialicons li a {
+    background: #0F3B4A !important;
+    color: #FFFFFF !important;
+}
+
+.hb-socialicons li a:hover,
+.hb-socialicons.hb-socialicons-sm li a:hover,
+.hb-teamcontent .hb-socialicons li a:hover,
+.hb-team .hb-socialicons li a:hover {
+    background: #2E6D73 !important;
+    color: #FFFFFF !important;
+    transition: all 0.3s ease;
+}
+
+/* TOP BAR SOCIAL ICONS - Special styling for header social icons */
+.hb-topbar .hb-socialicons.hb-withoutbackground li {
+    margin: 0 0px !important; /* Even smaller gap between icons */
+}
+
+.hb-topbar .hb-socialicons.hb-withoutbackground li a {
+    background: #0F3B4A !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 50% !important;
+    width: 32px !important;
+    height: 32px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transition: background 0.3s ease !important;
+    transform: none !important;
+}
+
+.hb-topbar .hb-socialicons.hb-withoutbackground li a:hover {
+    background: #2E6D73 !important;
+    color: #FFFFFF !important;
+    transform: none !important;
+    scale: none !important;
+    box-shadow: none !important;
+    transition: background 0.3s ease !important;
+}
+
+/* Ensure icons stay white on hover */
+.hb-topbar .hb-socialicons.hb-withoutbackground li a:hover i {
+    color: #FFFFFF !important;
+}
+
+/* GALLERY OVERLAYS */
+.hb-gallerycontent {
+    background: rgba(15,59,74,0.85);
+}
+
+.hb-gallerycontent h3 {
+    color: #FFFFFF;
+}
+
+.hb-gallerycontent span {
+    color: #F5EAD1;
+}
+
+/* GALLERY ICONS - Replace purple with brand colors - CRITICAL OVERRIDE */
+.hb-roundicon li a,
+.hb-g-icon,
+.hb-roundicon li .hb-g-icon,
+.hb-gallerycontent .hb-roundicon li a,
+.hb-gallerycontent .hb-g-icon,
+.hb-galleryimg .hb-roundicon li .hb-g-icon,
+.hb-galleryimg .hb-gallerycontent .hb-roundicon li .hb-g-icon,
+.hb-project .hb-roundicon li .hb-g-icon,
+.hb-gallery .hb-roundicon li .hb-g-icon,
+section .hb-roundicon li .hb-g-icon {
+    background: #0F3B4A !important;
+    background-color: #0F3B4A !important;
+    background-image: none !important;
+    color: #FFFFFF !important;
+    border: 2px solid #0F3B4A !important;
+    transition: all 0.3s ease !important;
+}
+
+.hb-roundicon li a:hover,
+.hb-g-icon:hover,
+.hb-roundicon li .hb-g-icon:hover,
+.hb-gallerycontent .hb-roundicon li a:hover,
+.hb-gallerycontent .hb-g-icon:hover,
+.hb-galleryimg .hb-roundicon li .hb-g-icon:hover,
+.hb-galleryimg .hb-gallerycontent .hb-roundicon li .hb-g-icon:hover,
+.hb-project .hb-roundicon li .hb-g-icon:hover,
+.hb-gallery .hb-roundicon li .hb-g-icon:hover,
+section .hb-roundicon li .hb-g-icon:hover {
+    background: #C59D2F !important;
+    background-color: #C59D2F !important;
+    background-image: none !important;
+    color: #0F3B4A !important;
+    border-color: #C59D2F !important;
+    transform: scale(1.1) !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Force icon colors inside gallery icons */
+.hb-roundicon li .hb-g-icon i,
+.hb-gallerycontent .hb-roundicon li .hb-g-icon i,
+.hb-galleryimg .hb-roundicon li .hb-g-icon i,
+.hb-project .hb-roundicon li .hb-g-icon i,
+.hb-gallery .hb-roundicon li .hb-g-icon i {
+    color: #FFFFFF !important;
+}
+
+.hb-roundicon li .hb-g-icon:hover i,
+.hb-gallerycontent .hb-roundicon li .hb-g-icon:hover i,
+.hb-galleryimg .hb-roundicon li .hb-g-icon:hover i,
+.hb-project .hb-roundicon li .hb-g-icon:hover i,
+.hb-gallery .hb-roundicon li .hb-g-icon:hover i {
+    color: #0F3B4A !important;
+}
+
+/* NUCLEAR OPTION - Override ALL purple gradients and backgrounds */
+.hb-roundicon li .hb-g-icon,
+.hb-gallerycontent .hb-roundicon li .hb-g-icon,
+.hb-galleryimg .hb-roundicon li .hb-g-icon,
+.hb-project .hb-roundicon li .hb-g-icon,
+.hb-gallery .hb-roundicon li .hb-g-icon,
+section .hb-roundicon li .hb-g-icon {
+    background: #0F3B4A !important;
+    background-color: #0F3B4A !important;
+    background-image: none !important;
+    background-position: initial !important;
+    background-size: initial !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    -moz-filter: none !important;
+    -ms-filter: none !important;
+    -o-filter: none !important;
+}
+
+/* VIDEO PLAY BUTTON - Replace purple with brand colors */
+.hb-video-btn,
+.hb-aboutusvideo .hb-video-btn,
+.lightbox.html5lightbox,
+a.hb-video-btn,
+.hb-video-btn.lightbox {
+    background: #0F3B4A !important;
+    background-color: #0F3B4A !important;
+    background-image: none !important;
+    color: #FFFFFF !important;
+    border: 3px solid #0F3B4A !important;
+    transition: all 0.3s ease !important;
+}
+
+.hb-video-btn:hover,
+.hb-aboutusvideo .hb-video-btn:hover,
+a.hb-video-btn:hover,
+.hb-video-btn.lightbox:hover {
+    background: #C59D2F !important;
+    background-color: #C59D2F !important;
+    background-image: none !important;
+    color: #0F3B4A !important;
+    border-color: #C59D2F !important;
+    transform: scale(1.1) !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Video play button icon */
+.hb-video-btn i,
+.hb-aboutusvideo .hb-video-btn i,
+a.hb-video-btn i,
+.hb-video-btn.lightbox i {
+    color: #FFFFFF !important;
+}
+
+.hb-video-btn:hover i,
+.hb-aboutusvideo .hb-video-btn:hover i,
+a.hb-video-btn:hover i,
+.hb-video-btn.lightbox:hover i {
+    color: #0F3B4A !important;
+}
+
+.hb-roundicon li .hb-g-icon:hover,
+.hb-gallerycontent .hb-roundicon li .hb-g-icon:hover,
+.hb-galleryimg .hb-roundicon li .hb-g-icon:hover,
+.hb-project .hb-roundicon li .hb-g-icon:hover,
+.hb-gallery .hb-roundicon li .hb-g-icon:hover,
+section .hb-roundicon li .hb-g-icon:hover {
+    background: #C59D2F !important;
+    background-color: #C59D2F !important;
+    background-image: none !important;
+    background-position: initial !important;
+    background-size: initial !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    -moz-filter: none !important;
+    -ms-filter: none !important;
+    -o-filter: none !important;
+}
+
+/* BLOG ELEMENTS - Normal text styling without background */
+.hb-postcategory,
+a.hb-postcategory,
+.hb-postcontent .hb-postcategory,
+.hb-post .hb-postcategory {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #1D2A33 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: none !important;
+    border: none !important;
+    text-transform: uppercase !important;
+    margin: 0 0 20px !important;
+}
+
+/* Hover effect with blue color */
+.hb-postcategory:hover,
+a.hb-postcategory:hover,
+.hb-postcontent .hb-postcategory:hover,
+.hb-post .hb-postcategory:hover,
+.hb-postcategory:focus,
+a.hb-postcategory:focus,
+.hb-postcategory:active,
+a.hb-postcategory:active {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #0F3B4A !important;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+.hb-postmeta {
+    color: #2E6D73;
+}
+
+/* Blog post image hover effects - Scale applied to image itself */
+.hb-postimage {
+    overflow: hidden;
+}
+
+.hb-post:hover .hb-postimage img {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.hb-postimage:hover img {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.hb-postimage img {
+    transition: all 0.3s ease;
+}
+
+.hb-postimage:hover:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 59, 74, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* SPECIAL ELEMENTS */
+.hb-whychooseus-list li:before {
+    color: #C59D2F;
+}
+
+#back-top {
+    background: #0F3B4A;
+}
+
+/* INFO AREAS */
+.hb-info li {
+    color: #FFFFFF;
+}
+
+.hb-info li a {
+    color: #F5EAD1;
+}
+
+.hb-info li a:hover {
+    color: #C59D2F;
+}
+
+.hb-timeandday {
+    color: #F5EAD1;
+}
+
+/*=============================================
+			FOOTER SPECIFIC FIXES
+=============================================*/
+
+/* Logo styling for proper display */
+.hb-logo img {
+    height: 85px;
+    width: auto;
+    max-width: 280px;
+    transition: all 0.3s ease;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Header logo - for light backgrounds */
+.hb-header .hb-logo img {
+    height: 75px;
+    max-width: 250px;
+}
+
+/* Footer logo - for dark backgrounds with white filter */
+.hb-footer .hb-logo img {
+    filter: brightness(0) invert(1);
+    height: 85px;
+    max-width: 280px;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: none !important;
+    background-color: transparent !important;
+}
+
+/* Remove hover effects from footer logo */
+.hb-footer .hb-logo:hover img {
+    transform: none !important;
+    scale: none !important;
+    filter: brightness(0) invert(1) !important;
+}
+
+.hb-footer .hb-logo a,
+.hb-footer .hb-logo a:hover,
+.hb-footer .hb-logo a:focus,
+.hb-footer .hb-logo a:active {
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+    background: none !important;
+    background-color: transparent !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Footer logo container alignment */
+.hb-footer .hb-logo {
+    display: inline-block;
+    vertical-align: middle;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: none !important;
+    background-color: transparent !important;
+}
+
+/* Remove any possible borders from footer logo elements */
+.hb-footer .hb-logo *,
+.hb-footer .hb-logo *:before,
+.hb-footer .hb-logo *:after {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+/* Logo hover effects - only for header logos, not footer */
+.hb-header .hb-logo:hover img {
+    transform: scale(1.05);
+}
+
+/* Ensure no hover effects on footer logo */
+.hb-footer .hb-logo:hover img {
+    transform: none !important;
+}
+
+/* Navbar alignment fixes for specific structure */
+.hb-navigationarea .col-xs-12 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hb-header .hb-logo {
+    position: absolute;
+    left: 0;
+    z-index: 10;
+}
+
+.hb-header .hb-addnav {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.hb-header .hb-nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hb-header .hb-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hb-header .hb-navigation > ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.hb-header .hb-navigation > ul > li {
+    display: inline-block;
+    margin: 0;
+}
+
+/* Remove any borders from logo links */
+.hb-logo a, .hb-logo a:hover, .hb-logo a:focus {
+    border: none !important;
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+/* Additional navbar centering */
+.hb-header .navbar-header {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+}
+
+.hb-header .navbar-toggle {
+    margin-right: 0;
+}
+
+/* Center navigation items specifically */
+.hb-header .hb-navigation ul {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure proper spacing between nav items */
+.hb-header .hb-navigation ul li a {
+    padding: 15px 5px;
+    display: block;
+}
+
+/* Responsive navbar adjustments */
+@media (max-width: 991px) {
+    .hb-navigationarea .col-xs-12 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hb-header .hb-logo {
+        position: relative;
+        left: auto;
+        margin-bottom: 15px;
+    }
+
+    .hb-header .hb-addnav {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .hb-header .hb-nav {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .hb-header .hb-navigation {
+        text-align: center;
+    }
+
+    .hb-header .hb-navigation ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hb-header .hb-navigation ul li {
+        margin: 5px 0;
+        width: 100%;
+    }
+}
+
+/* Responsive logo sizing */
+@media (max-width: 768px) {
+    .hb-logo img {
+        height: 65px;
+        max-width: 200px;
+    }
+
+    .hb-header .hb-logo img {
+        height: 60px;
+        max-width: 180px;
+    }
+
+    .hb-footer .hb-logo img {
+        height: 65px;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hb-logo img {
+        height: 50px;
+        max-width: 160px;
+    }
+
+    .hb-header .hb-logo img {
+        height: 45px;
+        max-width: 140px;
+    }
+
+    .hb-footer .hb-logo img {
+        height: 50px;
+        max-width: 150px;
+    }
+}
+
+.hb-footer .hb-logo a {
+    color: #C59D2F;
+}
+
+/* If there's any text-based logo or "Paradise" text in footer */
+.hb-footer h1, .hb-footer h2, .hb-footer h3,
+.hb-footer h4, .hb-footer h5, .hb-footer h6,
+.hb-footer .hb-logo {
+    color: #C59D2F !important;
+}
+
+/* Footer subscribe button - solid color */
+.hb-footer .hb-btn,
+.hb-emailarea .hb-btn {
+    background: #0F3B4A;
+    color: #FFFFFF;
+    transform: none !important;
+}
+
+.hb-footer .hb-btn:hover,
+.hb-emailarea .hb-btn:hover {
+    background: #2E6D73;
+    transform: none !important;
+    transition: background 0.3s ease;
+}
+
+/* Footer social icons - solid color */
+.hb-footer .hb-socialicons li a {
+    background: #0F3B4A;
+}
+
+.hb-footer .hb-socialicons li a:hover {
+    background: #2E6D73;
+    transform: none !important;
+    transition: background 0.3s ease;
+}
+
+/*=============================================
+        OVERRIDE PURPLE SOCIAL ICONS
+=============================================*/
+
+/* Override any purple gradients from main.css */
+.hb-socialicons.hb-socialicons-sm li a {
+    background: #0F3B4A !important;
+    background-image: none !important;
+    filter: none !important;
+    color: #FFFFFF !important;
+}
+
+.hb-socialicons.hb-socialicons-sm li a:hover {
+    background: #2E6D73 !important;
+    background-image: none !important;
+    background-position: center !important;
+    background-size: auto !important;
+    filter: none !important;
+    color: #FFFFFF !important;
+}
+
+/*=============================================
+        COMPREHENSIVE SOCIAL ICONS OVERRIDE
+=============================================*/
+
+/* Target ALL possible social icon variations across the website */
+.hb-socialicons li a,
+.hb-socialicons.hb-socialicons-sm li a,
+.hb-teamcontent .hb-socialicons li a,
+.hb-team .hb-socialicons li a,
+.hb-staff .hb-socialicons li a,
+.hb-member .hb-socialicons li a,
+section .hb-socialicons li a,
+.container .hb-socialicons li a,
+div .hb-socialicons li a {
+    background: #0F3B4A !important;
+    background-color: #0F3B4A !important;
+    background-image: none !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+
+/* Hover states for ALL social icon variations */
+.hb-socialicons li a:hover,
+.hb-socialicons.hb-socialicons-sm li a:hover,
+.hb-teamcontent .hb-socialicons li a:hover,
+.hb-team .hb-socialicons li a:hover,
+.hb-staff .hb-socialicons li a:hover,
+.hb-member .hb-socialicons li a:hover,
+section .hb-socialicons li a:hover,
+.container .hb-socialicons li a:hover,
+div .hb-socialicons li a:hover {
+    background: #2E6D73 !important;
+    background-color: #2E6D73 !important;
+    background-image: none !important;
+    background-position: center !important;
+    background-size: auto !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    filter: none !important;
+    transition: all 0.3s ease;
+}
+
+/* Remove all scaling effects from footer elements */
+.hb-footer .hb-btn,
+.hb-footer .hb-socialicons li a,
+.hb-emailarea .hb-btn {
+    transform: none !important;
+}
+
+.hb-footer .hb-btn:hover,
+.hb-footer .hb-socialicons li a:hover,
+.hb-emailarea .hb-btn:hover {
+    transform: none !important;
+    scale: none !important;
+}
+
+/*=============================================
+			PRICING BUTTON OVERRIDE - CRITICAL FIX
+=============================================*/
+
+/* Override any conflicting button styles for pricing section */
+.hb-pricingbox .hb-btnarea .hb-btn,
+.hb-pricingbox .hb-btnarea .hb-btn:hover,
+.hb-pricingbox .hb-btnarea .hb-btn:focus,
+.hb-pricingbox .hb-btnarea .hb-btn:active,
+.hb-pricingbox .hb-btnarea .hb-btn:visited {
+    background: #0F3B4A !important;
+    background-color: #0F3B4A !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    text-decoration: none !important;
+}
+
+/* When pricing box is hovered, change button color */
+.hb-pricingbox:hover .hb-btnarea .hb-btn,
+.hb-pricingbox:hover .hb-btnarea .hb-btn:hover,
+.hb-pricingbox:hover .hb-btnarea .hb-btn:focus,
+.hb-pricingbox:hover .hb-btnarea .hb-btn:active {
+    background: #2E6D73 !important;
+    background-color: #2E6D73 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+
+/* Ensure text is always visible */
+.hb-pricingbox .hb-btn *,
+.hb-pricingbox .hb-btnarea .hb-btn * {
+    color: #FFFFFF !important;
+}
+
+/*=============================================
+			ADDITIONAL PAGE-SPECIFIC STYLES
+=============================================*/
+
+/* ABOUT US PAGE */
+.hb-aboutus,
+.hb-team {
+    background: #FDF9F5;
+}
+
+.hb-teambox {
+    background: #FFFFFF;
+    border: 1px solid #F5EAD1;
+}
+
+.hb-teambox:hover {
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
+
+/* CONTACT PAGE */
+.hb-contactus {
+    background: #F5EAD1;
+}
+
+.hb-contactinfo {
+    background: #FFFFFF;
+    border: 1px solid #F5EAD1;
+}
+
+/* SHOP PAGES */
+.hb-shop,
+.hb-shoparea {
+    background: #FDF9F5;
+}
+
+.hb-productbox {
+    background: #FFFFFF;
+    border: 1px solid #F5EAD1;
+}
+
+.hb-productbox:hover {
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
+
+/* BOOKING PAGE */
+.hb-booking {
+    background: #F5EAD1;
+}
+
+.booked-calendar {
+    background: #FFFFFF;
+    border: 1px solid #F5EAD1;
+}
+
+/* FAQ PAGE */
+.hb-faq {
+    background: #FDF9F5;
+}
+
+.hb-panel {
+    background: #FFFFFF;
+    border: 1px solid #F5EAD1;
+}
+
+/* GALLERY PAGE */
+.hb-gallery {
+    background: #FDF9F5;
+}
+
+.hb-galleryimg {
+    border: 1px solid #F5EAD1;
+}
+
+/* TESTIMONIALS PAGE */
+.hb-testimonials {
+    background: #F5EAD1;
+}
+
+/* PRICING PAGE */
+.hb-pricing {
+    background: #FDF9F5;
+}
+
+/* BLOG PAGES */
+.hb-bloggrid,
+.hb-blogdetails {
+    background: #FDF9F5;
+}
+
+.hb-sidebar {
+    background: #FFFFFF;
+}
+
+.hb-widget {
+    background: #FFFFFF;
+    border: 1px solid #F5EAD1;
+    margin-bottom: 30px;
+}
+
+/* COMING SOON PAGE */
+.hb-comingsoon {
+    background: #F5EAD1;
+}
+
+/* 404 PAGE */
+.hb-errorpage {
+    background: #FDF9F5;
+}
+
+/* GIFT CERTIFICATES */
+.hb-giftcertificates {
+    background: #F5EAD1;
+}
+
+.hb-giftbox {
+    background: #FFFFFF;
+    border: 1px solid #F5EAD1;
+}
+
+/*=============================================
+			OVERRIDE ANY REMAINING OLD COLORS
+=============================================*/
+
+/* Text colors */
+p, span, div {
+    color: #1D2A33;
+}
+
+/*=============================================
+			GLOBAL LOADER CUSTOMIZATION
+=============================================*/
+
+/* Override original loader colors with brand colors */
+.loader-holder .dot:nth-child(2) {
+    background: #0F3B4A !important; /* Dark blue-green */
+}
+
+.loader-holder .dot:nth-child(3) {
+    background: #1a5f7a !important; /* Medium blue-green */
+}
+
+.loader-holder .dot:nth-child(4) {
+    background: #0F3B4A !important; /* Dark blue-green */
+}
+
+.loader-holder .dot:nth-child(5) {
+    background: #2a7f9a !important; /* Light blue-green */
+}
+
+/* Change loader background to blur effect */
+.loader-holder {
+    background-color: rgba(15, 59, 74, 0.1) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 9999 !important;
+}
+
+/* LOADER TEXT STYLING */
+.loader-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10001;
+    margin-top: 120px; /* Position below the loader animation */
+    width: 100%;
+    max-width: 400px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.loader-title {
+    font-family: 'Arizonia', cursive;
+    font-size: 42px;
+    color: #0F3B4A;
+    margin: 0 0 12px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.4), 1px 1px 3px rgba(255,255,255,0.3);
+    animation: fadeInUp 1.5s ease-out;
+}
+
+.loader-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #1D2A33;
+    margin: 0 0 25px 0;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3), 1px 1px 2px rgba(255,255,255,0.2);
+    animation: fadeInUp 1.8s ease-out;
+}
+
+.loader-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    animation: fadeInUp 2.1s ease-out;
+}
+
+.loader-dots span {
+    width: 10px;
+    height: 10px;
+    background: #1D2A33;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    animation: loaderDotWave 1.4s ease-in-out infinite;
+}
+
+.loader-dots span:nth-child(1) { animation-delay: 0s; }
+.loader-dots span:nth-child(2) { animation-delay: 0.2s; }
+.loader-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes loaderDotWave {
+    0%, 60%, 100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    30% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .loader-title {
+        font-size: 32px;
+    }
+
+    .loader-subtitle {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    .loader-text {
+        margin-top: 100px;
+        max-width: 350px;
+        padding: 0 15px;
+    }
+
+    .loader-holder {
+        padding: 20px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .loader-title {
+        font-size: 28px;
+    }
+
+    .loader-subtitle {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .loader-text {
+        margin-top: 80px;
+        max-width: 300px;
+        padding: 0 10px;
+    }
+
+    .loader-holder {
+        padding: 15px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .loader-title {
+        font-size: 24px;
+    }
+
+    .loader-subtitle {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .loader-text {
+        margin-top: 70px;
+        max-width: 280px;
+        padding: 0 10px;
+    }
+}
+
+/* Link colors */
+a {
+    color: #1D2A33;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    color: #C59D2F;
+    text-decoration: none;
+}
+
+/* Button text */
+.hb-btn, .btn {
+    color: #FFFFFF !important;
+}
+
+/* Form elements */
+input, select, textarea {
+    color: #1D2A33;
+    background: #FFFFFF;
+    border-color: #F5EAD1;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #C59D2F;
+}
+
+/* Navigation text */
+.hb-navigation ul li a {
+    color: #1D2A33 !important;
+    font-weight: 600;
+}
+
+.hb-navigation ul li a:hover {
+    color: #C59D2F !important;
+}
+
+/* HEADER V2 NAVIGATION FIX - Enhanced visibility */
+.hb-header.v2 .hb-navigationarea {
+    background: #FFFFFF !important;
+    border-bottom: 2px solid #F5EAD1;
+    box-shadow: 0 2px 10px rgba(15,59,74,0.1);
+}
+
+.hb-header.v2 .hb-navigation ul li a {
+    color: #1D2A33 !important;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.hb-header.v2 .hb-navigation ul li a:hover,
+.hb-header.v2 .hb-navigation ul li.current-menu-item > a {
+    color: #C59D2F !important;
+}
+
+/* Sub-menu visibility for v2 header */
+.hb-header.v2 .hb-navigation ul li .sub-menu {
+    background: #FFFFFF !important;
+    border: 1px solid #F5EAD1;
+    box-shadow: 0 5px 15px rgba(15,59,74,0.1);
+}
+
+.hb-header.v2 .hb-navigation ul li .sub-menu li a {
+    color: #1D2A33 !important;
+    font-weight: 500;
+    background: transparent;
+}
+
+.hb-header.v2 .hb-navigation ul li .sub-menu li a:hover {
+    color: #C59D2F !important;
+    background: #FDF9F5 !important;
+}
+
+/* SEARCH ICON VISIBILITY FIX */
+.hb-header.v2 .hb-searcharea a.search-opener i {
+    color: #1D2A33 !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hb-header.v2 .hb-searcharea a.search-opener:hover i {
+    color: #C59D2F !important;
+}
+
+/* CART ICON VISIBILITY FIX */
+.hb-header.v2 .hb-cartarea a span {
+    color: #1D2A33 !important;
+    font-size: 18px;
+}
+
+.hb-header.v2 .hb-cartarea a:hover span {
+    color: #C59D2F !important;
+}
+
+/* Footer text */
+.hb-footer, .hb-footer * {
+    color: #FFFFFF;
+}
+
+.hb-footer h1, .hb-footer h2, .hb-footer h3,
+.hb-footer h4, .hb-footer h5, .hb-footer h6 {
+    color: #C59D2F;
+}
+
+.hb-footer p, .hb-footer span, .hb-footer div {
+    color: #F5EAD1;
+}
+
+/* Ensure all sections have proper backgrounds */
+section {
+    background: #FDF9F5;
+}
+
+section:nth-child(even) {
+    background: #F5EAD1;
+}
+
+/* Override any purple/pink remnants and yellow backgrounds */
+*[style*="#fac0f9"], *[style*="#aaaaff"], *[style*="#fbbaf8"] {
+    color: #C59D2F !important;
+}
+
+*[style*="background: #fac0f9"], *[style*="background-color: #fac0f9"] {
+    background: #C59D2F !important;
+}
+
+/* Remove any yellow backgrounds that might be applied to category tags or images */
+*[style*="background: yellow"], *[style*="background-color: yellow"],
+*[style*="background: #ffff00"], *[style*="background-color: #ffff00"],
+*[style*="background: #ffd700"], *[style*="background-color: #ffd700"] {
+    background: transparent !important;
+}
+
+/*=============================================
+        PRICE TAG STYLING - REPLACE PURPLE GRADIENT
+=============================================*/
+
+/* Replace purple gradient price tags with solid dark blue-green */
+.hb-services.v2.ver-4 .hb-servicebox .price {
+    background: #0F3B4A !important;
+    background-image: none !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+
+/* Fix price tag container overflow and positioning issues */
+.hb-services.v2.ver-4 .hb-servicebox {
+    overflow: visible !important;
+    padding-top: 25px !important; /* Add extra padding to accommodate negative margin price tag */
+}
+
+/* Ensure services slider container has proper overflow */
+.hb-services.v2.ver-4 .hb-servicesslider,
+.hb-services.v2.ver-4 .hb-servicesslider .item {
+    overflow: visible !important;
+}
+
+/* Adjust hover effect to prevent clipping */
+.hb-services.v2.ver-4 .hb-servicebox:hover {
+    transform: translateY(-2px) !important; /* Reduce transform to prevent clipping */
+    transition: all 0.3s ease !important;
+    box-shadow: 0 8px 20px rgba(15,59,74,0.15) !important;
+}
+
+/*=============================================
+        FIX TREATMENT PACKAGES SECTION
+=============================================*/
+
+/* Fix tab navigation - Replace purple gradient with golden theme */
+.hb-pricingplan .tab-list .active a {
+    background: #C59D2F !important;
+    background-image: none !important;
+    color: #FFFFFF !important;
+    border-color: #C59D2F !important;
+}
+
+.hb-pricingplan .tab-list a:hover {
+    background: #F5EAD1 !important;
+    color: #1D2A33 !important;
+    border-color: #C59D2F !important;
+}
+
+/* Replace purple gradient in pricing plan hover states only */
+
+/* Remove default active state - no treatment package should be selected by default */
+.hb-pricingplan .tab-content .txt-holder.active {
+    background: transparent !important;
+    background-image: none !important;
+    color: inherit !important;
+}
+
+.hb-pricingplan .tab-content .txt-holder.active h3,
+.hb-pricingplan .tab-content .txt-holder.active .price,
+.hb-pricingplan .tab-content .txt-holder.active p {
+    color: inherit !important;
+}
+
+/* Ensure normal state text is visible */
+.hb-pricingplan .tab-content .txt-holder h3 {
+    color: #1D2A33 !important;
+}
+
+.hb-pricingplan .tab-content .txt-holder .price {
+    color: #C59D2F !important;
+}
+
+.hb-pricingplan .tab-content .txt-holder p {
+    color: #7a7992 !important;
+}
+
+/* Fix container overflow issues for treatment packages - ONLY OVERFLOW FIX */
+.hb-pricingplan .tab-content {
+    overflow: visible !important;
+}
+
+.hb-pricingplan .tab-content .row {
+    overflow: visible !important;
+}
+
+.hb-pricingplan .tab-content .col-xs-12,
+.hb-pricingplan .tab-content .col-sm-6 {
+    overflow: visible !important;
+}
+
+/* Only apply special styling on hover, not on active class */
+.hb-pricingplan .tab-content .txt-holder:hover {
+    background: #0F3B4A !important;
+    background-image: none !important;
+    color: #FFFFFF !important;
+    border-radius: 5px !important;
+}
+
+.hb-pricingplan .tab-content .txt-holder:hover h3,
+.hb-pricingplan .tab-content .txt-holder:hover .price,
+.hb-pricingplan .tab-content .txt-holder:hover p {
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/*=============================================
+        FIX CIRCULAR IMAGE DISTORTION
+=============================================*/
+
+/* Fix circular image container dimensions */
+.v4 .hb-whychooseus-img {
+    position: relative;
+    overflow: hidden;
+    width: 430px !important;
+    height: 430px !important;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+/* Fix circular image dimensions to be perfectly round */
+.v4 .hb-whychooseus-img:after {
+    width: 430px !important;
+    height: 430px !important;
+}
+
+/* Ensure the image itself maintains proper aspect ratio */
+.v4 .hb-whychooseus-img img {
+    width: 430px !important;
+    height: 430px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 100% !important;
+    display: block !important;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 639px) {
+    .v4 .hb-whychooseus-img {
+        width: 320px !important;
+        height: 320px !important;
+    }
+
+    .v4 .hb-whychooseus-img:after {
+        width: 320px !important;
+        height: 320px !important;
+    }
+
+    .v4 .hb-whychooseus-img img {
+        width: 320px !important;
+        height: 320px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .v4 .hb-whychooseus-img {
+        width: 290px !important;
+        height: 290px !important;
+    }
+
+    .v4 .hb-whychooseus-img:after {
+        width: 290px !important;
+        height: 290px !important;
+    }
+
+    .v4 .hb-whychooseus-img img {
+        width: 290px !important;
+        height: 290px !important;
+    }
+}
+
+/*=============================================
+        FIX FOOTER IMAGE GALLERY - REMOVE ALL PADDING
+=============================================*/
+
+/* Remove all padding and spacing from footer image gallery */
+.hb-footer .hb-widget ul {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0 !important;
+}
+
+.hb-footer .hb-widget ul li {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 33.333% !important;
+    flex: 0 0 33.333% !important;
+}
+
+.hb-footer .hb-widget ul li a {
+    display: block !important;
+    border-radius: 0 !important;
+    overflow: hidden !important;
+}
+
+.hb-footer .hb-widget ul li a img {
+    width: 100% !important;
+    height: 80px !important;
+    object-fit: cover !important;
+    display: block !important;
+    border-radius: 0 !important;
+}
+
+/* Responsive adjustments for footer gallery - no gaps */
+@media (max-width: 768px) {
+    .hb-footer .hb-widget ul li {
+        width: 33.333% !important;
+        flex: 0 0 33.333% !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hb-footer .hb-widget ul li {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+    }
+
+    .hb-footer .hb-widget ul li a img {
+        height: 70px !important;
+    }
+}
+
+/*=============================================
+        FIX SECOND CIRCULAR IMAGE (hb-whychooseus-img2)
+=============================================*/
+
+/* Fix second circular image container dimensions */
+.v4 .hb-whychooseus-img2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 220px !important;
+    height: 220px !important;
+    overflow: hidden !important;
+}
+
+/* Fix second circular image dimensions to be perfectly round */
+.v4 .hb-whychooseus-img2:after {
+    width: 220px !important;
+    height: 220px !important;
+    bottom: 0 !important;
+    right: 0 !important;
+}
+
+/* Ensure the second image itself maintains proper aspect ratio */
+.v4 .hb-whychooseus-img2 img {
+    width: 220px !important;
+    height: 220px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 100% !important;
+    display: block !important;
+}
+
+/* Responsive adjustments for second image on smaller screens */
+@media (max-width: 639px) {
+    .v4 .hb-whychooseus-img2 {
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    .v4 .hb-whychooseus-img2:after {
+        width: 180px !important;
+        height: 180px !important;
+    }
+
+    .v4 .hb-whychooseus-img2 img {
+        width: 180px !important;
+        height: 180px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .v4 .hb-whychooseus-img2 {
+        width: 160px !important;
+        height: 160px !important;
+    }
+
+    .v4 .hb-whychooseus-img2:after {
+        width: 160px !important;
+        height: 160px !important;
+    }
+
+    .v4 .hb-whychooseus-img2 img {
+        width: 160px !important;
+        height: 160px !important;
+    }
+}
+
+/* Specifically target image containers and remove any yellow backgrounds */
+.hb-postimage, .hb-postimage:before, .hb-postimage:after,
+.hb-postimage *, .hb-postimage a, .hb-postimage img,
+figure.hb-postimage, figure.hb-postimage * {
+    background: transparent !important;
+}
+
+/* Remove yellow backgrounds from any blog post elements */
+.hb-post *[style*="yellow"], .hb-post *[style*="#ffff"],
+.hb-postcontent *[style*="yellow"], .hb-postcontent *[style*="#ffff"] {
+    background: transparent !important;
+}
+
+/* Ensure no conflicting yellow styles from any source */
+.hb-postcategory[style*="background"],
+.hb-postcategory[style*="color"] {
+    background: transparent !important;
+    color: #1D2A33 !important;
+}
+
+/*=============================================
+        ULTIMATE BLOG CATEGORY OVERRIDE
+=============================================*/
+
+/* Maximum specificity override for blog category tags - Normal text styling */
+html body .hb-post .hb-postcontent .hb-postcategory,
+html body .hb-post .hb-postcontent a.hb-postcategory,
+html body .hb-blog .hb-post .hb-postcategory,
+html body .hb-blog .hb-post a.hb-postcategory,
+html body section .hb-post .hb-postcategory,
+html body section .hb-post a.hb-postcategory {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #1D2A33 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 8px rgba(197, 157, 47, 0.3) !important;
+    border: none !important;
+    text-transform: uppercase !important;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+}
+
+/* Removed hover transform effects to prevent glitches */
+html body .hb-post .hb-postcontent .hb-postcategory:hover,
+html body .hb-post .hb-postcontent a.hb-postcategory:hover,
+html body .hb-blog .hb-post .hb-postcategory:hover,
+html body .hb-blog .hb-post a.hb-postcategory:hover,
+html body section .hb-post .hb-postcategory:hover,
+html body section .hb-post a.hb-postcategory:hover,
+html body .hb-post .hb-postcontent .hb-postcategory:focus,
+html body .hb-post .hb-postcontent a.hb-postcategory:focus,
+html body .hb-post .hb-postcontent .hb-postcategory:active,
+html body .hb-post .hb-postcontent a.hb-postcategory:active {
+    background: #2E6D73 !important;
+    background-color: #2E6D73 !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    /* Removed transform and box-shadow to prevent glitches */
+    border: none !important;
+}
+
+/*=============================================
+        NUCLEAR OPTION - FORCE CATEGORY STYLING
+=============================================*/
+
+/* Force styling on all possible category tag variations - Normal text styling */
+[class*="postcategory"],
+[class*="category"],
+a[href*="category"],
+.hb-post a[href*="blog"],
+.hb-postcontent > a:first-child,
+.hb-postcontent a:first-of-type {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #1D2A33 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: none !important;
+    border: none !important;
+    text-transform: uppercase !important;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    margin: 0 0 20px !important;
+    cursor: pointer !important;
+}
+
+/* Blue hover effects */
+[class*="postcategory"]:hover,
+[class*="category"]:hover,
+a[href*="category"]:hover,
+.hb-post a[href*="blog"]:hover,
+.hb-postcontent > a:first-child:hover,
+.hb-postcontent a:first-of-type:hover {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #0F3B4A !important;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+/* Override any possible yellow or other unwanted colors - Normal text styling */
+.hb-postcategory,
+a.hb-postcategory {
+    background: transparent !important;
+    background-color: transparent !important;
+    color: #1D2A33 !important;
+}
+
+/* Remove any possible yellow backgrounds from browser defaults or other sources */
+* {
+    /* Remove any yellow highlights or backgrounds that might be applied by browser or other CSS */
+}
+
+/*=============================================
+        FIX BREADCRUMB SEPARATOR VISIBILITY
+=============================================*/
+
+/* Make breadcrumb separator visible on light backgrounds */
+.hb-breadcrumb li:after {
+    color: #C59D2F !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+
+*[style*="yellow"],
+*[style*="#ffff00"],
+*[style*="#ffd700"],
+*[class*="yellow"],
+*[id*="yellow"] {
+    background: transparent !important;
+    color: #1D2A33 !important;
+}
+
+/* Additional comprehensive yellow background removal */
+img[style*="background"], figure[style*="background"],
+.hb-postimage[style*="background"], .hb-post[style*="background"] {
+    background: transparent !important;
+}
+
+/* Force transparent backgrounds on all image-related elements */
+.hb-postimage, .hb-postimage:before, .hb-postimage:after,
+.hb-postimage figure, figure.hb-postimage {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+/* Remove any borders from blog post images */
+.hb-postimage img,
+.hb-postimage a img,
+figure.hb-postimage img,
+.hb-post img,
+.hb-post figure img,
+.hb-post .hb-postimage img {
+    border: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* Override any Bootstrap img-thumbnail or other border styles */
+.hb-postimage img.img-thumbnail,
+.hb-post img.img-thumbnail,
+img.img-thumbnail {
+    border: none !important;
+    padding: 0 !important;
+}
+
+/* Remove golden border from any image that might have it */
+img[style*="border"],
+.hb-postimage img[style*="border"],
+.hb-post img[style*="border"] {
+    border: none !important;
+}
+
+/* ABSOLUTE OVERRIDE - Remove ALL borders from blog posts */
+.hb-post,
+.hb-post *,
+.hb-postimage,
+.hb-postimage *,
+.hb-postimage img,
+.hb-post img,
+article.hb-post,
+article.hb-post *,
+figure.hb-postimage img,
+.hb-postimage a img,
+.hb-post figure img,
+.hb-post figure.hb-postimage img {
+    border: none !important;
+    border-color: transparent !important;
+    border-width: 0 !important;
+}
+
+/* Override the .hb-thumb figure img border specifically for blog post images */
+.hb-post figure.hb-postimage img,
+figure.hb-postimage img,
+.hb-postimage figure img,
+.hb-post .hb-postimage img,
+.hb-postimage a img {
+    border: none !important;
+    border-color: transparent !important;
+    border-width: 0 !important;
+    border-radius: 0 !important;
+}
+
+/*=============================================
+        FINAL OVERRIDE - ABSOLUTE PRIORITY
+=============================================*/
+
+/* CRITICAL: Override style.css .hb-thumb figure img rule that loads after color.css */
+/* This must be at the end to ensure it takes precedence over style.css */
+.hb-post figure.hb-postimage img,
+figure.hb-postimage img,
+.hb-postimage figure img,
+.hb-post .hb-postimage img,
+.hb-postimage a img,
+article.hb-post figure img,
+article.hb-post .hb-postimage img,
+.hb-post figure img,
+.hb-post img,
+.hb-postimage img {
+    border: none !important;
+    border-color: transparent !important;
+    border-width: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* Override any thumbnail classes that might be applied */
+.hb-postimage img.img-thumbnail,
+.hb-post img.img-thumbnail,
+figure.hb-postimage img.img-thumbnail,
+.hb-post figure img.img-thumbnail {
+    border: none !important;
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+/*=============================================
+        SLIDER ARROWS - COMPREHENSIVE STYLING
+=============================================*/
+
+/* All slider arrows - default state */
+.hb-prev,
+.hb-next,
+.hb-servicesslider .hb-prev,
+.hb-servicesslider .hb-next,
+.hb-testimonialsthumbslider .hb-prev,
+.hb-testimonialsthumbslider .hb-next,
+.hb-homeslider .hb-prev,
+.hb-homeslider .hb-next,
+.hb-homeslider.v2 .hb-prev,
+.hb-homeslider.v2 .hb-next,
+.hb-homeslider.v4 .hb-prev,
+.hb-homeslider.v4 .hb-next,
+.hb-homeslider.v5 .hb-prev,
+.hb-homeslider.v5 .hb-next,
+.owl-carousel .hb-prev,
+.owl-carousel .hb-next {
+    background: #0F3B4A !important;
+    color: #FFFFFF !important;
+    border: none !important;
+}
+
+/* All slider arrows - hover state */
+.hb-prev:hover,
+.hb-next:hover,
+.hb-servicesslider .hb-prev:hover,
+.hb-servicesslider .hb-next:hover,
+.hb-testimonialsthumbslider .hb-prev:hover,
+.hb-testimonialsthumbslider .hb-next:hover,
+.hb-homeslider .hb-prev:hover,
+.hb-homeslider .hb-next:hover,
+.hb-homeslider.v2 .hb-prev:hover,
+.hb-homeslider.v2 .hb-next:hover,
+.hb-homeslider.v4 .hb-prev:hover,
+.hb-homeslider.v4 .hb-next:hover,
+.hb-homeslider.v5 .hb-prev:hover,
+.hb-homeslider.v5 .hb-next:hover,
+.owl-carousel .hb-prev:hover,
+.owl-carousel .hb-next:hover {
+    background: #2E6D73 !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    background-size: auto !important;
+}
+
+/* Force white arrow icons - all states */
+.hb-prev,
+.hb-next,
+.hb-prev:hover,
+.hb-next:hover,
+.hb-prev:focus,
+.hb-next:focus,
+.hb-prev:active,
+.hb-next:active,
+.hb-servicesslider .hb-prev,
+.hb-servicesslider .hb-next,
+.hb-servicesslider .hb-prev:hover,
+.hb-servicesslider .hb-next:hover,
+.hb-testimonialsthumbslider .hb-prev,
+.hb-testimonialsthumbslider .hb-next,
+.hb-testimonialsthumbslider .hb-prev:hover,
+.hb-testimonialsthumbslider .hb-next:hover,
+.hb-homeslider .hb-prev,
+.hb-homeslider .hb-next,
+.hb-homeslider .hb-prev:hover,
+.hb-homeslider .hb-next:hover,
+.hb-homeslider.v2 .hb-prev,
+.hb-homeslider.v2 .hb-next,
+.hb-homeslider.v2 .hb-prev:hover,
+.hb-homeslider.v2 .hb-next:hover,
+.hb-homeslider.v4 .hb-prev,
+.hb-homeslider.v4 .hb-next,
+.hb-homeslider.v4 .hb-prev:hover,
+.hb-homeslider.v4 .hb-next:hover,
+.hb-homeslider.v5 .hb-prev,
+.hb-homeslider.v5 .hb-next,
+.hb-homeslider.v5 .hb-prev:hover,
+.hb-homeslider.v5 .hb-next:hover,
+.owl-carousel .hb-prev,
+.owl-carousel .hb-next,
+.owl-carousel .hb-prev:hover,
+.owl-carousel .hb-next:hover {
+    color: #FFFFFF !important;
+}
+
+/*=============================================
+        FINAL ARROW ICON COLOR OVERRIDE
+=============================================*/
+
+/* Absolute final override to ensure ALL arrow icons are white */
+button.hb-prev,
+button.hb-next,
+a.hb-prev,
+a.hb-next,
+.hb-prev i,
+.hb-next i,
+.hb-prev:before,
+.hb-next:before,
+.hb-prev:after,
+.hb-next:after {
+    color: #FFFFFF !important;
+}
+
+button.hb-prev:hover,
+button.hb-next:hover,
+a.hb-prev:hover,
+a.hb-next:hover,
+.hb-prev:hover i,
+.hb-next:hover i,
+.hb-prev:hover:before,
+.hb-next:hover:before,
+.hb-prev:hover:after,
+.hb-next:hover:after {
+    color: #FFFFFF !important;
+}
+
+/* Target the specific icon font spans used in slider arrows */
+.hb-prev span,
+.hb-next span,
+.hb-prev .icon-chevron-left,
+.hb-next .icon-chevron-right,
+.hb-prev span.icon-chevron-left,
+.hb-next span.icon-chevron-right {
+    color: #FFFFFF !important;
+}
+
+.hb-prev:hover span,
+.hb-next:hover span,
+.hb-prev:hover .icon-chevron-left,
+.hb-next:hover .icon-chevron-right,
+.hb-prev:hover span.icon-chevron-left,
+.hb-next:hover span.icon-chevron-right {
+    color: #FFFFFF !important;
+}
+
+/* Target all possible icon font classes that might be used */
+.hb-prev [class^="icon-"],
+.hb-next [class^="icon-"],
+.hb-prev [class*=" icon-"],
+.hb-next [class*=" icon-"],
+.hb-prev:hover [class^="icon-"],
+.hb-next:hover [class^="icon-"],
+.hb-prev:hover [class*=" icon-"],
+.hb-next:hover [class*=" icon-"] {
+    color: #FFFFFF !important;
+}
+
+/* Ensure icomoon font family icons are white */
+.hb-prev [class^="icon-"]:before,
+.hb-next [class^="icon-"]:before,
+.hb-prev [class*=" icon-"]:before,
+.hb-next [class*=" icon-"]:before,
+.hb-prev:hover [class^="icon-"]:before,
+.hb-next:hover [class^="icon-"]:before,
+.hb-prev:hover [class*=" icon-"]:before,
+.hb-next:hover [class*=" icon-"]:before {
+    color: #FFFFFF !important;
+}
+
+/* Force all slider navigation elements to have white text */
+.hb-slidernav .hb-prev,
+.hb-slidernav .hb-next,
+.hb-slidernav .hb-prev span,
+.hb-slidernav .hb-next span,
+.hb-slidernav .hb-prev:hover,
+.hb-slidernav .hb-next:hover,
+.hb-slidernav .hb-prev:hover span,
+.hb-slidernav .hb-next:hover span {
+    color: #FFFFFF !important;
+}
+
+/* Target the exact chevron icon classes used in sliders */
+.icon-chevron-left,
+.icon-chevron-right,
+.icon-chevron-left:before,
+.icon-chevron-right:before,
+.hb-prev .icon-chevron-left,
+.hb-next .icon-chevron-right,
+.hb-prev .icon-chevron-left:before,
+.hb-next .icon-chevron-right:before,
+.hb-prev:hover .icon-chevron-left,
+.hb-next:hover .icon-chevron-right,
+.hb-prev:hover .icon-chevron-left:before,
+.hb-next:hover .icon-chevron-right:before {
+    color: #FFFFFF !important;
+}
+
+/* Ultimate override for any owl carousel navigation */
+.owl-carousel .hb-prev,
+.owl-carousel .hb-next,
+.owl-carousel .hb-prev span,
+.owl-carousel .hb-next span,
+.owl-carousel .hb-prev .icon-chevron-left,
+.owl-carousel .hb-next .icon-chevron-right,
+.owl-carousel .hb-prev:hover,
+.owl-carousel .hb-next:hover,
+.owl-carousel .hb-prev:hover span,
+.owl-carousel .hb-next:hover span,
+.owl-carousel .hb-prev:hover .icon-chevron-left,
+.owl-carousel .hb-next:hover .icon-chevron-right {
+    color: #FFFFFF !important;
+}
+
+/*=============================================
+        NUCLEAR OPTION - FORCE WHITE ARROWS
+=============================================*/
+
+/* This is the absolute final override - if arrows are still not white, this will force them */
+* .hb-prev,
+* .hb-next,
+* .hb-prev *,
+* .hb-next *,
+* .hb-prev:hover,
+* .hb-next:hover,
+* .hb-prev:hover *,
+* .hb-next:hover * {
+    color: #FFFFFF !important;
+}
+
+/* Force white on all possible pseudo-elements */
+* .hb-prev:before,
+* .hb-next:before,
+* .hb-prev:after,
+* .hb-next:after,
+* .hb-prev *:before,
+* .hb-next *:before,
+* .hb-prev *:after,
+* .hb-next *:after {
+    color: #FFFFFF !important;
+}
+
+/* This should definitely work - targeting exact elements - Blue background with white text */
+.hb-blog .hb-post .hb-postcontent .hb-postcategory,
+.hb-blog .hb-post .hb-postcontent a.hb-postcategory,
+section .hb-post .hb-postcontent .hb-postcategory,
+section .hb-post .hb-postcontent a.hb-postcategory,
+.container .hb-post .hb-postcontent .hb-postcategory,
+.container .hb-post .hb-postcontent a.hb-postcategory {
+    background: #0F3B4A !important;
+    background-color: #0F3B4A !important;
+    color: #FFFFFF !important;
+    padding: 8px 16px !important;
+    border-radius: 20px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 8px rgba(197, 157, 47, 0.3) !important;
+    border: none !important;
+    text-transform: uppercase !important;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    margin: 0 0 20px !important;
+    cursor: pointer !important;
+}
+
+/* Test rule to see if our CSS is loading - this should make all h2 elements red */
+/* h2 { color: red !important; } */
+
+/*=============================================
+        LAST RESORT - MAXIMUM SPECIFICITY
+=============================================*/
+
+/* Use the highest possible specificity to override any conflicting styles */
+html body div.container div.row div.col-md-4 article.hb-post div.hb-postcontent a.hb-postcategory,
+html body div.container div.row div.col-lg-4 article.hb-post div.hb-postcontent a.hb-postcategory,
+html body div.container div.row div.col-sm-6 article.hb-post div.hb-postcontent a.hb-postcategory,
+html body section.hb-blog div.container div.row div article.hb-post div.hb-postcontent a.hb-postcategory,
+html body section div.container div.row div article.hb-post div.hb-postcontent a.hb-postcategory,
+html body div section div.container div.row div article.hb-post div.hb-postcontent a.hb-postcategory {
+    background: #0F3B4A !important;
+    background-color: #0F3B4A !important;
+    color: #FFFFFF !important;
+    padding: 8px 16px !important;
+    border-radius: 20px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 8px rgba(15, 59, 74, 0.3) !important;
+    border: none !important;
+    text-transform: uppercase !important;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    margin: 0 0 20px !important;
+    cursor: pointer !important;
+    line-height: 16px !important;
+}
+
+/* Final hover override - maintain blue background with white text */
+.hb-postcategory:hover,
+a.hb-postcategory:hover,
+.hb-blog .hb-post .hb-postcontent .hb-postcategory:hover,
+.hb-blog .hb-post .hb-postcontent a.hb-postcategory:hover,
+section .hb-post .hb-postcontent .hb-postcategory:hover,
+section .hb-post .hb-postcontent a.hb-postcategory:hover,
+.container .hb-post .hb-postcontent .hb-postcategory:hover,
+.container .hb-post .hb-postcontent a.hb-postcategory:hover,
+html body div.container div.row div.col-md-4 article.hb-post div.hb-postcontent a.hb-postcategory:hover,
+html body div.container div.row div.col-lg-4 article.hb-post div.hb-postcontent a.hb-postcategory:hover,
+html body div.container div.row div.col-sm-6 article.hb-post div.hb-postcontent a.hb-postcategory:hover,
+html body section.hb-blog div.container div.row div article.hb-post div.hb-postcontent a.hb-postcategory:hover,
+html body section div.container div.row div article.hb-post div.hb-postcontent a.hb-postcategory:hover,
+html body div section div.container div.row div article.hb-post div.hb-postcontent a.hb-postcategory:hover {
+    background: #0F3B4A !important;
+    background-color: #0F3B4A !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    /* Removed transform and box-shadow to prevent glitches */
+    border: none !important;
+}

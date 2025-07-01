@@ -1,0 +1,1080 @@
+<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang=""> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Services | Radiance Hair & Skin Clinic</title>
+	<link rel="shortcut icon" href="./images/IMG-20250617-WA0013.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/icofont.css">
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/color.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	<style>
+		/* Service Page Layout Improvements */
+		.hb-post-area .hb-post {
+			padding: 30px;
+			background-color: #ffffff;
+			border-radius: 8px;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+			margin-bottom: 30px;
+		}
+
+		.hb-postimage img {
+			width: 100%;
+			height: 400px;
+			object-fit: cover;
+			border-radius: 8px;
+		}
+
+		.hb-description {
+			margin-bottom: 30px;
+		}
+
+		.hb-description p {
+			color: #333;
+			line-height: 1.8;
+			margin-bottom: 20px;
+			font-size: 16px;
+		}
+
+		/* Pricing Section Improvements */
+		.hb-pricinglist-area {
+			margin-top: 30px;
+		}
+
+		.hb-pricinglist-area .block {
+			background: #ffffff;
+			border-radius: 8px;
+			box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+			margin-bottom: 30px;
+			overflow: hidden;
+		}
+
+		.hb-pricinglist-area .img-holder img {
+			width: 100%;
+			height: 300px;
+			object-fit: cover;
+		}
+
+		.hb-pricinglistbox {
+			padding: 25px;
+		}
+
+		.hb-pricinglistbox li {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 15px 0;
+			border-bottom: 1px solid #eee;
+		}
+
+		.hb-pricinglistbox li:last-child {
+			border-bottom: none;
+		}
+
+		.hb-pricinglistbox h3 {
+			color: #0F3B4A;
+			font-size: 16px;
+			font-weight: 600;
+			margin: 0;
+		}
+
+		.hb-pricinglistbox span {
+			color: #C59D2F;
+			font-size: 18px;
+			font-weight: 700;
+		}
+
+		/* FAQ Section Improvements */
+		.hb-accordian {
+			background: #f8f9fa;
+			padding: 25px;
+			border-radius: 8px;
+			margin-top: 20px;
+		}
+
+		.hb-accordian h3 {
+			color: #0F3B4A;
+			font-size: 20px;
+			font-weight: 600;
+			margin-bottom: 20px;
+		}
+
+		.hb-panel h4 {
+			color: #0F3B4A;
+			font-size: 16px;
+			font-weight: 600;
+			padding: 15px;
+			background: #ffffff;
+			border-radius: 5px;
+			margin-bottom: 10px;
+			cursor: pointer;
+			border-left: 4px solid #C59D2F;
+		}
+
+		.hb-panel h4.active {
+			background: #0F3B4A;
+			color: white;
+			border-left-color: #C59D2F;
+		}
+
+		/* Appointment Section Improvements */
+		.hb-appointment {
+			background: linear-gradient(135deg, rgba(15, 59, 74, 0.05), rgba(197, 157, 47, 0.05));
+			padding: 60px 0;
+		}
+
+		.hb-appointmentimg img {
+			width: 100%;
+			height: 545px;
+			object-fit: cover;
+			border-radius: 8px;
+		}
+
+		.hb-appointmentcontent h3 {
+			color: #0F3B4A;
+			font-size: 24px;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+
+		.hb-appointmentcontent .hb-description p {
+			color: #333;
+			font-size: 16px;
+			line-height: 1.8;
+		}
+
+		.hb-btn {
+			background-color: #0F3B4A;
+			color: white !important;
+			padding: 12px 30px;
+			border: none;
+			border-radius: 5px;
+			font-weight: 600;
+			text-decoration: none;
+			display: inline-block;
+			transition: all 0.3s ease;
+			font-size: 14px;
+			text-align: center;
+			line-height: 1.4;
+			visibility: visible !important;
+			opacity: 1 !important;
+		}
+
+		.hb-btn:hover {
+			background-color: #C59D2F;
+			color: white !important;
+			text-decoration: none;
+		}
+
+		.hb-btn:focus,
+		.hb-btn:active {
+			color: white !important;
+			text-decoration: none;
+		}
+
+		/* Sidebar Improvements */
+		.hb-sidebar .hb-widget {
+			background: #ffffff;
+			border-radius: 15px;
+			box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+			margin-bottom: 30px;
+			overflow: hidden;
+		}
+
+		.hb-sidebar .hb-recentnews ul {
+			padding: 0;
+			margin: 0;
+		}
+
+		.hb-sidebar .hb-recentnews ul li {
+			background: #0F3B4A;
+			margin-bottom: 2px;
+			transition: all 0.3s ease;
+		}
+
+		.hb-sidebar .hb-recentnews ul li a {
+			color: white;
+			padding: 18px 25px;
+			display: block;
+			text-decoration: none;
+			font-weight: 500;
+			font-size: 15px;
+			transition: all 0.3s ease;
+		}
+
+		.hb-sidebar .hb-recentnews ul li:hover,
+		.hb-sidebar .hb-recentnews ul li.active {
+			background: #C59D2F;
+			transform: translateX(5px);
+		}
+
+		/* Testimonial Sidebar Styling */
+		.side-test-slide {
+			padding: 25px;
+		}
+
+		.side-slide {
+			background: #f8f9fa;
+			padding: 25px;
+			border-radius: 10px;
+			border-left: 4px solid #C59D2F;
+			margin-bottom: 20px;
+		}
+
+		.side-slide q {
+			color: #333;
+			font-style: italic;
+			line-height: 1.6;
+			font-size: 14px;
+		}
+
+		.side-slide cite {
+			color: #0F3B4A;
+			font-weight: 600;
+			margin-top: 15px;
+			display: block;
+		}
+
+		/* Banner Title - Clean White Background */
+		.hb-innerbanner {
+			background: #ffffff;
+			min-height: 300px;
+			display: flex;
+			align-items: center;
+			border-bottom: 1px solid #C59D2F;
+		}
+
+		/* Main Content Structure */
+		#hb-main {
+			background-color: #ffffff;
+		}
+
+		#hb-blog.service {
+			padding: 80px 0;
+			background-color: #ffffff;
+		}
+
+		/* Service Content Layout */
+		.hb-post-area .hb-post {
+			background: #ffffff;
+			border-radius: 15px;
+			box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+			padding: 40px;
+			margin-bottom: 40px;
+		}
+
+		.hb-postcontent h2 {
+			color: #0F3B4A !important;
+			font-size: 32px !important;
+			font-weight: 700 !important;
+			margin-bottom: 25px !important;
+			line-height: 1.3 !important;
+		}
+
+		/* Pricing Section Improvements */
+		.hb-pricinglist-area .row {
+			align-items: flex-start;
+		}
+
+		.hb-pricing-content {
+			background: white;
+			border-radius: 15px;
+			padding: 40px;
+			box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+		}
+
+		/* FAQ Accordion Improvements */
+		.hb-panel h4 {
+			transition: all 0.3s ease;
+		}
+
+		.hb-panel h4:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+		}
+
+		/* Pricing Section Hover Effects */
+		.pricing-item:hover {
+			transform: translateY(-3px) !important;
+			box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+			border-left-width: 8px !important;
+		}
+
+		/* Footer Content Visibility - Updated to match dark theme */
+
+		/* Button area specific styling */
+		.hb-btnarea {
+			margin-top: 20px;
+		}
+
+		.hb-btnarea .hb-btn {
+			color: white !important;
+			background-color: #0F3B4A !important;
+			text-decoration: none !important;
+			font-weight: 600 !important;
+			padding: 15px 25px !important;
+			border-radius: 5px !important;
+			display: inline-block !important;
+			text-align: center !important;
+			min-width: 160px !important;
+			transition: all 0.3s ease !important;
+			visibility: visible !important;
+			opacity: 1 !important;
+			font-size: 14px !important;
+			line-height: 1.4 !important;
+		}
+
+		.hb-btnarea .hb-btn:hover {
+			background-color: #C59D2F !important;
+			color: white !important;
+			text-decoration: none !important;
+		}
+
+		.hb-btnarea .hb-btn:focus,
+		.hb-btnarea .hb-btn:active {
+			color: white !important;
+			text-decoration: none !important;
+		}
+
+		/* Footer Column Spacing and Layout */
+		.hb-footer .hb-footer-area .row {
+			display: flex;
+			align-items: flex-start;
+		}
+
+		.hb-footer .hb-footer-area .col-md-3 {
+			flex: 1;
+			max-width: 25%;
+			padding: 0 15px;
+		}
+
+		.hb-footer .hb-col {
+			height: 100%;
+			padding: 20px 0;
+		}
+
+		/* Footer Image Gallery Styling */
+		.hb-footer .hb-widget {
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+
+		.hb-footer .hb-widget ul {
+			list-style: none;
+			padding: 0 !important;
+			margin: 0 !important;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 6px;
+		}
+
+		.hb-footer .hb-widget ul li {
+			margin: 0 !important;
+			padding: 0 !important;
+			overflow: hidden;
+			border-radius: 8px;
+			transition: transform 0.3s ease;
+		}
+
+		.hb-footer .hb-widget ul li:hover {
+			transform: scale(1.03);
+		}
+
+		.hb-footer .hb-widget ul li a {
+			display: block;
+			line-height: 0;
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+
+		.hb-footer .hb-widget ul li img {
+			width: 100% !important;
+			height: 75px !important;
+			object-fit: cover;
+			border-radius: 8px;
+			transition: all 0.3s ease;
+			display: block;
+		}
+
+		.hb-footer .hb-widget ul li img:hover {
+			opacity: 0.85;
+		}
+
+		/* Quick Links and Contact Section Spacing */
+		.hb-footer .hb-col ul.hb-info,
+		.hb-footer .hb-col .hb-description ul {
+			padding-left: 0 !important;
+			margin-left: 0 !important;
+		}
+
+		.hb-footer .hb-col .hb-description ul li {
+			padding-left: 0 !important;
+			margin-left: 0 !important;
+		}
+
+		/* Footer styling to match design */
+		.hb-footer {
+			background-color: #0F3B4A !important;
+			color: white !important;
+		}
+
+		.hb-footer * {
+			visibility: visible !important;
+			opacity: 1 !important;
+		}
+
+		.hb-footer .hb-col h3 {
+			color: #C59D2F !important;
+			font-weight: 700 !important;
+			font-size: 18px !important;
+		}
+
+		.hb-footer .hb-col p,
+		.hb-footer .hb-col span,
+		.hb-footer .hb-timeandday {
+			color: white !important;
+			font-size: 14px !important;
+			line-height: 1.6 !important;
+		}
+
+		.hb-footer .hb-col a {
+			color: white !important;
+			text-decoration: none !important;
+		}
+
+		.hb-footer .hb-col a:hover {
+			color: #C59D2F !important;
+		}
+
+		.hb-footerbar {
+			background-color: #0A2E38 !important;
+			border-top: 1px solid rgba(197, 157, 47, 0.2) !important;
+		}
+
+		.hb-footerbar * {
+			visibility: visible !important;
+			opacity: 1 !important;
+		}
+
+		.hb-footerbar .hb-copyright {
+			color: #ccc !important;
+			font-size: 14px !important;
+		}
+
+		.hb-footerbar .hb-footernav li a {
+			color: #ccc !important;
+		}
+
+		.hb-footerbar .hb-footernav li a:hover {
+			color: #C59D2F !important;
+		}
+
+		/* Responsive Improvements */
+		@media (max-width: 768px) {
+			.hb-pricing-content {
+				padding-left: 15px !important;
+				margin-top: 30px;
+			}
+
+			.hb-innerbanner h1 {
+				font-size: 36px !important;
+			}
+
+			.hb-btnarea {
+				text-align: center !important;
+			}
+
+			.hb-btnarea .hb-btn {
+				display: block !important;
+				margin: 10px auto !important;
+				width: 200px;
+			}
+
+			#hb-pricing {
+				padding: 60px 0 !important;
+			}
+
+			.hb-pricing-content {
+				padding-left: 20px !important;
+				margin-top: 40px;
+			}
+
+			.hb-sectionhead h2 {
+				font-size: 28px !important;
+			}
+		}
+	</style>
+</head>
+<body class="hb-home hb-homeone">
+	<!--************************************
+			Wrapper Start
+	*************************************-->
+	<div id="hb-wrapper" class="hb-wrapper hb-haslayout">
+		<!--************************************
+				Header V3 Start
+		*************************************-->
+		<header id="hb-header" class="hb-header hb-haslayout">
+			<div class="hb-topbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="hb-info-area">
+								<ul class="list-unstyled hb-info">
+									<li><a href="mailto:radiance.srt@gmail.com"><i class="fa fa-envelope"></i>radiance.srt@gmail.com</a>
+									</li>
+									<li><i class="fa fa-phone"></i>+916352214662</li>
+								</ul>
+							</div>
+							<div class="hb-socialicons-area">
+								<span class="hb-timeandday">Monday – Saturday: 10:00 AM to 1:00 PM & 5:00 PM to 8:00 PM</span>
+								<ul class="hb-socialicons hb-withoutbackground list-unstyled">
+									<li><a href="https://www.facebook.com/share/1E6cgenrGa/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://youtube.com/@radiancehairandskinclinic?si=Kyvz1cy-JHv2C4Ap"><i class="fab fa-youtube"></i></a></li>
+									<li class="hb-googleplus"><a href="https://maps.app.goo.gl/A7m18x6ewWXGSXzu8?g_st=com.google.maps.preview.copy"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="https://www.instagram.com/radiance_hair_and_skin_clinic?igsh=MXFwbHdiZzI0bmRhMw=="><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hb-navigationarea">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<strong class="hb-logo"><a href="index.html"><img src="images/Radiance Clinic PNG 5.png" alt="Radiance Hair & Skin Clinic" style="max-height: 60px; width: auto;"></a></strong>
+							<div class="hb-addnav">
+								<div class="hb-searcharea">
+									<a href="#" class="search-opener"><i class="icon_search"></i></a>
+								</div>
+							</div>
+							<nav id="hb-nav" class="hb-nav">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hb-navigation" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<div id="hb-navigation" class="collapse navbar-collapse hb-navigation">
+									<ul>
+										<li>
+											<a href="index.html">Home</a>
+										</li>
+										<li class="current-menu-item">
+											<a href="service.html">Services</a>
+										</li>
+										<li class="menu-item-has-children">
+											<a href="javascript:void(0);">Pages</a>
+											<ul class="list-unstyled sub-menu">
+												<li><a href="aboutus.html">About Us</a></li>
+												<li><a href="testimonials.html">Testimonials</a></li>
+												<li><a href="faq.html">FAQs</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="gallery.html">Gallery</a>
+										</li>
+										<li>
+											<a href="blog-classic.html">Blog</a>
+										</li>
+										<li><a href="contactus.html">Contact</a></li>
+										<li><a href="https://radianceaesthetic.academy/">Academy</a></li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--************************************
+				Header V3 End
+		*************************************-->
+		<div class="search-popup">
+			<div class="holder">
+				<div class="block">
+					<a href="#" class="close-btn"><i class="fa fa-times"></i></a>
+					<form action="#" class="search-form">
+						<fieldset>
+							<input type="search" class="form-control" placeholder="Search">
+							<button type="submit" class="btn-primary"><i class="fa fa-search"></i></button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--************************************
+				Banner Start
+		*************************************-->
+		<div id="hb-innerbanner" class="hb-innerbanner hb-haslayout">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="hb-innerbanner-area service">
+							<div class="hb-bannarheading">
+								<h1 style="color: #0F3B4A; font-size: 48px; font-weight: 700; text-shadow: none; margin-bottom: 15px;">Services</h1>
+							</div>
+							<ul class="hb-breadcrumb">
+								<li><a href="index-4.html" style="color: #C59D2F; font-weight: 600;">Home</a></li>
+								<li style="color: #0F3B4A; font-weight: 600;">Our Services</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--************************************
+				Banner End
+		*************************************-->
+		<!--************************************
+				Main Start
+		*************************************-->
+		<main id="hb-main" class="hb-main hb-haslayout">
+			<!--************************************
+						Blog Start
+			*************************************-->
+			<section id="hb-services" class="hb-services ver-4 v2 hb-sectionspace hb-haslayout">
+				<div class="container">
+					<div class="row">
+						<div class=" col-xs-12 col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2">
+							<div class="hb-sectionhead mb-50">
+								<div class="hb-sectiontitle">
+									<h2><span>Our Services</span>
+										Expert Skin and Hair Treatments Under One Roof
+									</h2>
+								</div>
+								<div class="hb-headcontent">
+									<h2>Advanced treatments with US-FDA approved technology!</h2>
+									<div class="hb-description">
+										<p>At Radiance Hair & Skin Clinic, we offer a wide range of dermatology and aesthetic services tailored for every skin and hair type. Our treatments are scientifically backed, non-invasive or minimally invasive, and performed under the supervision of certified professionals.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="hb-servicesslider" class="hb-servicesslider hb-haslayout owl-carousel owl-theme">
+							<div class="item">
+								<div class="hb-servicebox bg-grey sm-round">
+									<!-- <span class="price font-arizonia">₹3500</span> -->
+									<figure class="hb-serviceimg">
+										<img src="https://htmlbeans.com/html/paradise/images/pricing-img04.jpg" alt="PRP Hair Treatment" class="img-responsive">
+										<figcaption class="hb-imagecontent">
+											<!-- <a type="submit" class="hb-btn">Book Now</a> -->
+										</figcaption>
+									</figure>
+									<div class="hb-servicecontent">
+										<h3 class="hb-headingtree">PRP for Hair Loss</h3>
+										<div class="hb-description">
+											<p>Platelet-Rich Plasma therapy to stimulate natural hair regrowth and reduce hair fall effectively</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="hb-servicebox bg-grey sm-round">
+									<!-- <span class="price font-arizonia">₹2500</span> -->
+									<figure class="hb-serviceimg">
+										<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=220&h=220&q=80" alt="Acne Treatment" class="img-responsive">
+										<figcaption class="hb-imagecontent">
+											<!-- <a type="submit" class="hb-btn">Book Now</a> -->
+										</figcaption>
+									</figure>
+									<div class="hb-servicecontent">
+										<h3 class="hb-headingtree">Acne & Scar Removal</h3>
+										<div class="hb-description">
+											<p>Advanced treatments to clear acne and reduce scars for smooth, healthy skin</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="hb-servicebox bg-grey sm-round">
+									<!-- <span class="price font-arizonia">₹4500</span> -->
+									<figure class="hb-serviceimg">
+										<img src="https://htmlbeans.com/html/paradise/images/pricing-img02.jpg" alt="HydraFacial Treatment" class="img-responsive">
+										<figcaption class="hb-imagecontent">
+											<!-- <a type="submit" class="hb-btn">Book Now</a> -->
+										</figcaption>
+									</figure>
+									<div class="hb-servicecontent">
+										<h3 class="hb-headingtree">HydraFacial</h3>
+										<div class="hb-description">
+											<p>Advanced 3-in-1 treatment that cleanses, extracts, and hydrates for instantly glowing skin</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="hb-servicebox bg-grey sm-round">
+									<!-- <span class="price font-arizonia">₹1500</span> -->
+									<figure class="hb-serviceimg">
+										<img src="https://htmlbeans.com/html/paradise/images/pricing-img03.jpg" alt="Laser Hair Removal" class="img-responsive">
+										<figcaption class="hb-imagecontent">
+											<!-- <a type="submit" class="hb-btn">Book Now</a> -->
+										</figcaption>
+									</figure>
+									<div class="hb-servicecontent">
+										<h3 class="hb-headingtree">Laser Hair Removal</h3>
+										<div class="hb-description">
+											<p>Safe and effective permanent hair reduction for all Indian skin types using US-FDA approved lasers</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="hb-servicebox bg-grey sm-round">
+									<!-- <span class="price">₹8000</span> -->
+									<figure class="hb-serviceimg">
+										<img src="https://htmlbeans.com/html/paradise/images/services-img04.jpg" alt="Anti-Aging Treatment" class="img-responsive">
+										<figcaption class="hb-imagecontent">
+											<!-- <a type="submit" class="hb-btn">Book Now</a> -->
+										</figcaption>
+									</figure>
+									<div class="hb-servicecontent">
+										<h3 class="hb-headingtree">Anti-Aging Treatments</h3>
+										<div class="hb-description">
+											<p>Botox, Fillers, and Thread lifts to restore youthful appearance naturally</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="hb-servicebox bg-grey sm-round">
+									<!-- <span class="price">₹3000</span> -->
+									<figure class="hb-serviceimg">
+										<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=220&h=220&q=80" alt="Permanent Makeup" class="img-responsive">
+										<figcaption class="hb-imagecontent">
+											<!-- <a type="submit" class="hb-btn">Book Now</a> -->
+										</figcaption>
+									</figure>
+									<div class="hb-servicecontent">
+										<h3 class="hb-headingtree">Permanent Makeup</h3>
+										<div class="hb-description">
+											<p>Lip Blush, Eyebrow Microblading, and BB Glow for effortless beauty</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--************************************
+						Blog End
+			*************************************-->
+			<!--************************************
+						Pricing Section Start
+			*************************************-->
+			<!-- <section id="hb-pricing" class="hb-pricing hb-sectionspace hb-haslayout" style="background-color: #f8f9fa; padding: 80px 0;">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="hb-sectionhead text-center" style="margin-bottom: 60px;">
+								<div class="hb-sectiontitle">
+									<h2 style="color: #0F3B4A; font-size: 36px; font-weight: 700; margin-bottom: 15px;">
+										<span style="color: #C59D2F;">Treatment</span> Pricing
+									</h2>
+									<p style="color: #666; font-size: 18px; max-width: 600px; margin: 0 auto;">Professional medical treatments with transparent pricing. All treatments are performed by certified dermatologists.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row align-items-center">
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<div class="hb-pricing-image">
+								<img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=500&q=80" alt="Medical Treatment Services" style="width: 100%; height: 500px; object-fit: cover; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6">
+							<div class="hb-pricing-content" style="padding-left: 50px;">
+								<div class="pricing-section" style="margin-bottom: 40px;">
+									<h3 style="color: #C59D2F; font-size: 24px; font-weight: 600; margin-bottom: 25px; text-align: center; position: relative;">
+										Skin & Face Treatments
+										<span style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 60px; height: 3px; background: #0F3B4A; border-radius: 2px;"></span>
+									</h3>
+									<div class="pricing-list">
+										<div class="pricing-item" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 25px; margin-bottom: 12px; background: white; border-radius: 10px; border-left: 5px solid #0F3B4A; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+											<span style="color: #0F3B4A; font-weight: 600; font-size: 17px;">HydraFacial</span>
+											<span style="color: #C59D2F; font-weight: 700; font-size: 19px;">₹2,500</span>
+										</div>
+										<div class="pricing-item" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 25px; margin-bottom: 12px; background: white; border-radius: 10px; border-left: 5px solid #0F3B4A; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+											<span style="color: #0F3B4A; font-weight: 600; font-size: 17px;">Chemical Peel</span>
+											<span style="color: #C59D2F; font-weight: 700; font-size: 19px;">₹3,000</span>
+										</div>
+										<div class="pricing-item" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 25px; margin-bottom: 12px; background: white; border-radius: 10px; border-left: 5px solid #0F3B4A; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+											<span style="color: #0F3B4A; font-weight: 600; font-size: 17px;">Microneedling</span>
+											<span style="color: #C59D2F; font-weight: 700; font-size: 19px;">₹3,500</span>
+										</div>
+										<div class="pricing-item" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 25px; margin-bottom: 12px; background: white; border-radius: 10px; border-left: 5px solid #0F3B4A; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+											<span style="color: #0F3B4A; font-weight: 600; font-size: 17px;">Anti-Aging Treatment</span>
+											<span style="color: #C59D2F; font-weight: 700; font-size: 19px;">₹4,000</span>
+										</div>
+										<div class="pricing-item" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 25px; margin-bottom: 12px; background: white; border-radius: 10px; border-left: 5px solid #0F3B4A; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+											<span style="color: #0F3B4A; font-weight: 600; font-size: 17px;">Botox Treatment</span>
+											<span style="color: #C59D2F; font-weight: 700; font-size: 19px;">₹8,000</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="pricing-section">
+									<h3 style="color: #C59D2F; font-size: 24px; font-weight: 600; margin-bottom: 25px; text-align: center; position: relative;">
+										Hair & Scalp Treatments
+										<span style="position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 60px; height: 3px; background: #0F3B4A; border-radius: 2px;"></span>
+									</h3>
+									<div class="pricing-list">
+										<div class="pricing-item" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 25px; margin-bottom: 12px; background: white; border-radius: 10px; border-left: 5px solid #0F3B4A; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+											<span style="color: #0F3B4A; font-weight: 600; font-size: 17px;">PRP Hair Treatment</span>
+											<span style="color: #C59D2F; font-weight: 700; font-size: 19px;">₹5,000</span>
+										</div>
+										<div class="pricing-item" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 25px; margin-bottom: 12px; background: white; border-radius: 10px; border-left: 5px solid #0F3B4A; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+											<span style="color: #0F3B4A; font-weight: 600; font-size: 17px;">Laser Hair Removal</span>
+											<span style="color: #C59D2F; font-weight: 700; font-size: 19px;">₹1,500</span>
+										</div>
+										<div class="pricing-item" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 25px; margin-bottom: 12px; background: white; border-radius: 10px; border-left: 5px solid #0F3B4A; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+											<span style="color: #0F3B4A; font-weight: 600; font-size: 17px;">Hair Transplant Consultation</span>
+											<span style="color: #C59D2F; font-weight: 700; font-size: 19px;">Free</span>
+										</div>
+										<div class="pricing-item" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 25px; margin-bottom: 12px; background: white; border-radius: 10px; border-left: 5px solid #0F3B4A; box-shadow: 0 3px 10px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+											<span style="color: #0F3B4A; font-weight: 600; font-size: 17px;">Dermal Fillers</span>
+											<span style="color: #C59D2F; font-weight: 700; font-size: 19px;">₹6,000</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
+			<!--************************************
+						Pricing Section End
+			*************************************-->
+			<!--************************************
+						Appointment Start
+			*************************************-->
+			<section id="hb-appointment" class="hb-appointment v4 hb-sectionspace hb-haslayout bg-grey">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-5">
+							<figure class="hb-appointmentimg">
+								<img src="./images/CLINIC-7.jpeg" alt="Professional consultation at Radiance Clinic">
+							</figure>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-7">
+							<div class="hb-sectionhead">
+								<div class="hb-sectiontitle">
+									<h2><span>Radiance Clinic</span>
+										Book Consultation
+									</h2>
+								</div>
+							</div>
+							<div class="hb-appointmentcontent">
+								<h3>Ready to Transform Your Skin?</h3>
+
+								<!-- Vision Statement -->
+								<div class="hb-vision-statement" style="margin: 20px 0; padding: 20px; background: rgba(245, 184, 47, 0.1); border-left: 4px solid #C59D2F; border-radius: 5px; text-align: center;">
+									<h4 style="color: #C59D2F; font-family: 'Arizonia', cursive; font-size: 18px; margin-bottom: 10px;">Our Vision</h4>
+									<p style="font-style: italic; color: #0F3B4A; line-height: 1.6; margin: 0;">To be the most trusted and advanced skin and hair care clinic in India, empowering individuals with science-based aesthetic solutions and compassionate care.</p>
+								</div>
+
+								<div class="hb-description">
+									<p>Call on: <strong>+91 6352214662 </strong> or fill out our online booking <span>& equiry form and we’ll contact you</span></p>
+								</div>
+								<div class="hb-btnarea">
+									<a href="contactus.html" class="hb-btn">Schedule Consultation</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--************************************
+						Appointment End
+			*************************************-->
+<!-- 
+			<section id="hb-appointment" class="hb-appointment hb-sectionspace hb-haslayout price-list">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-5">
+							<figure class="hb-appointmentimg">
+								<img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=470&h=545&q=80" alt="Professional Medical Consultation">
+							</figure>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-7">
+							<div class="hb-sectionhead">
+								<div class="hb-sectiontitle">
+									<h2 style="color: #0F3B4A; font-size: 36px; font-weight: 700; margin-bottom: 20px;">
+										<span style="color: #C59D2F;">Book Your</span> Appointment
+									</h2>
+								</div>
+							</div>
+							<div class="hb-appointmentcontent">
+								<h3 style="color: #0F3B4A; font-size: 24px; font-weight: 600; margin-bottom: 20px;">Ready to Transform Your Skin?</h3>
+								<div class="hb-description">
+									<p style="color: #333; font-size: 16px; line-height: 1.6;">Call us at <strong style="color: #C59D2F;">+91 6352214662</strong> or fill out our online booking form and we’ll contact you to schedule your consultation.</p>
+								</div>
+								<div class="hb-btnarea" style="text-align: left; margin-top: 30px;">
+									<a href="contactus.html" class="hb-btn" style="margin-right: 15px; display: inline-block; text-align: center; min-width: 160px; background-color: #0F3B4A; color: white; padding: 15px 25px; border-radius: 5px; text-decoration: none; font-weight: 600; transition: all 0.3s ease;">Book Appointment</a>
+									<a href="tel:+916352214662" class="hb-btn" style="background-color: #C59D2F; color: white; display: inline-block; text-align: center; min-width: 160px; padding: 15px 25px; border-radius: 5px; text-decoration: none; font-weight: 600; transition: all 0.3s ease;">Call Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main> -->
+		<!--************************************
+				Main End
+		*************************************-->
+		<!--************************************
+				Footer Start
+		*************************************-->
+		<footer id="hb-footer" class="hb-footer hb-haslayout">
+			<div class="hb-footer-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col">
+								<strong class="hb-logo">
+									<a href="javascript:void"><img src="images/Radiance Clinic PNG 6.png" alt="Radiance Hair & Skin Clinic"></a>
+								</strong>
+								<div style="margin: 20px 0;">
+									<span class="hb-timeandday">Monday – Saturday:<br>10:00 AM to 1:00 PM &<br>5:00 PM to 8:00 PM<br><br>Sunday:<br>10:00 AM to 1:00 PM<br>(By Appointment Only)</span>
+								</div>
+								<ul class="hb-socialicons hb-withoutbackground list-unstyled">
+									<li><a href="https://www.facebook.com/share/1E6cgenrGa/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://youtube.com/@radiancehairandskinclinic?si=Kyvz1cy-JHv2C4Ap"><i class="fab fa-youtube"></i></a></li>
+									<li class="hb-googleplus"><a href="https://maps.app.goo.gl/A7m18x6ewWXGSXzu8?g_st=com.google.maps.preview.copy"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="https://www.instagram.com/radiance_hair_and_skin_clinic?igsh=MXFwbHdiZzI0bmRhMw=="><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col">
+								<h3>Contacts</h3>
+								<ul class="list-unstyled hb-info">
+									<li style="margin-bottom: 10px;"><span><strong>Phone:</strong><br>+916352214662</span></li>
+									<li style="margin-bottom: 15px;"><span><strong>Email:</strong><br><a href="mailto:radiance.srt@gmail.com">radiance.srt@gmail.com</a></span></li>
+									<li><span><strong>Address:</strong><br>408, 4th Floor, Green Palladia,<br>Opp. Raj World Shopping<em><br>Palanpore Gam, Adajan, Surat,<br>Gujarat (Pin-395009)</em></span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col">
+								<h3>Quick Links</h3>
+								<div class="hb-description">
+									<ul style="list-style: none; padding: 0; margin: 0;">
+										<li style="margin-bottom: 8px;"><a href="index-4.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Home</a></li>
+										<li style="margin-bottom: 8px;"><a href="aboutus.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">About Us</a></li>
+										<li style="margin-bottom: 8px;"><a href="service.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Services</a></li>
+										<li style="margin-bottom: 8px;"><a href="gallery.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Gallery</a></li>
+										<li style="margin-bottom: 8px;"><a href="blog-classic.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Blog</a></li>
+										<li style="margin-bottom: 8px;"><a href="testimonials.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Testimonials</a></li>
+										<li style="margin-bottom: 8px;"><a href="faq.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">FAQ</a></li>
+										<li style="margin-bottom: 8px;"><a href="contactus.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Contact Us</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col hb-widget">
+								<ul>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-1.jpeg" alt="HydraFacial treatment"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-2.jpeg" alt="Botox consultation"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-3.jpeg" alt="Microneedling treatment"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-4.jpeg" alt="Chemical peel"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-5.jpeg" alt="Laser treatment"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-6.jpeg" alt="Wellness consultation"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hb-footerbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<span class="hb-copyright" style="display: block; text-align: center;">
+								Copyright ©2025 Radiance Hair & Skin Clinic. All Rights Reserved.
+							  </span>
+							<ul class="list-unstyled hb-footernav">
+								<!-- <li><a href="./aboutus.html">About </a></li>
+								<li><a href="./contactus.html">Contact</a></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--************************************
+				Footer End
+		*************************************-->
+		<span id="back-top" class="text-center rounded-circle fa fa-angle-up"></span>
+		<div id="loader" class="loader-holder">
+			<div class="block">
+			    <div class="dot white"></div>
+			    <div class="dot"></div>
+			    <div class="dot"></div>
+			    <div class="dot"></div>
+			    <div class="dot"></div>
+			</div>
+			<!-- Loader Text -->
+			<div class="loader-text">
+				<h3 class="loader-title">Welcome to Radiance</h3>
+				<p class="loader-subtitle">Hair & Skin Clinic</p>
+			</div>
+		</div>
+	</div>
+	<!--************************************
+			Wrapper End
+	*************************************-->
+	<script src="js/vendor/jquery-library.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	<script src="js/isotop.js"></script>
+	<script src="js/fancybox.js"></script>
+	<script src="js/countTo.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		// FAQ Accordion Functionality
+		$(document).ready(function() {
+			$('.hb-panel h4').click(function() {
+				var panel = $(this).parent();
+				var content = panel.find('.hb-panelcontent');
+				var isActive = $(this).hasClass('active');
+
+				// Close all panels
+				$('.hb-panel h4').removeClass('active').css({
+					'background': 'white',
+					'color': '#0F3B4A'
+				});
+				$('.hb-panel h4 span').text('+');
+				$('.hb-panelcontent').slideUp(300);
+
+				// Open clicked panel if it wasn't active
+				if (!isActive) {
+					$(this).addClass('active').css({
+						'background': '#0F3B4A',
+						'color': 'white'
+					});
+					$(this).find('span').text('−');
+					content.slideDown(300);
+				}
+			});
+		});
+	</script>
+</body>
+</html>

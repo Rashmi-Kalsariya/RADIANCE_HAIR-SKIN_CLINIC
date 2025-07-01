@@ -1,0 +1,763 @@
+<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang=""> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Testimonials | Radiance Hair & Skin Clinic</title>
+	<link rel="shortcut icon" href="./images/IMG-20250617-WA0013.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/icofont.css">
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/color.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	<style>
+		/* Custom styling for testimonial triangular arrows/pointers */
+		.hb-testimonialbox:before,
+		.hb-testimonialbox:after {
+			border-top-color: #0F3B4A !important;
+			border-bottom-color: #0F3B4A !important;
+		}
+
+		.hb-testimonialcontentbox:before,
+		.hb-testimonialcontentbox:after {
+			border-top-color: #0F3B4A !important;
+			border-bottom-color: #0F3B4A !important;
+		}
+
+		.hb-testimonialcontentbox.active:before,
+		.hb-testimonialcontentbox.active:after {
+			border-top-color: #0F3B4A !important;
+			border-bottom-color: #0F3B4A !important;
+		}
+
+		/* Testimonial box triangular pointers */
+		.hb-testimonialarea .hb-testimonialbox .hb-testimonialcontentbox:before {
+			border-top: 15px solid #0F3B4A !important;
+			border-left: 15px solid transparent !important;
+			border-right: 15px solid transparent !important;
+		}
+
+		.hb-testimonialarea .hb-testimonialbox .hb-testimonialcontentbox:after {
+			border-bottom: 15px solid #0F3B4A !important;
+			border-left: 15px solid transparent !important;
+			border-right: 15px solid transparent !important;
+		}
+
+		/* Active state triangular pointers */
+		.hb-testimonialarea .hb-testimonialbox .hb-testimonialcontentbox.active:before {
+			border-top: 15px solid #0F3B4A !important;
+			border-left: 15px solid transparent !important;
+			border-right: 15px solid transparent !important;
+		}
+
+		.hb-testimonialarea .hb-testimonialbox .hb-testimonialcontentbox.active:after {
+			border-bottom: 15px solid #0F3B4A !important;
+			border-left: 15px solid transparent !important;
+			border-right: 15px solid transparent !important;
+		}
+
+		/* Override any existing triangle colors */
+		.hb-testimonial2 .hb-testimonialbox .hb-testimonialcontentbox:before,
+		.hb-testimonial2 .hb-testimonialbox .hb-testimonialcontentbox:after {
+			border-color: #0F3B4A transparent transparent transparent !important;
+		}
+
+		.hb-testimonial2 .hb-testimonialbox .hb-testimonialcontentbox.active:before,
+		.hb-testimonial2 .hb-testimonialbox .hb-testimonialcontentbox.active:after {
+			border-color: #0F3B4A transparent transparent transparent !important;
+		}
+
+		/* Fix purple quotation marks in testimonial slider */
+		.hb-testimonialcontent figure img,
+		.hb-testimonial .hb-testimonialcontent figure img {
+			filter: hue-rotate(200deg) saturate(0.8) brightness(0.7) !important;
+		}
+
+		/* Alternative approach - replace quote image with CSS */
+		.hb-testimonialcontent figure {
+			position: relative !important;
+		}
+
+		.hb-testimonialcontent figure img {
+			opacity: 0 !important;
+		}
+
+		.hb-testimonialcontent figure:before {
+			content: '"' !important;
+			position: absolute !important;
+			top: 0 !important;
+			left: 50% !important;
+			transform: translateX(-50%) !important;
+			font-size: 60px !important;
+			color: #0F3B4A !important;
+			font-family: serif !important;
+			font-weight: bold !important;
+			line-height: 1 !important;
+		}
+
+		/* Footer Column Spacing and Layout */
+		.hb-footer .hb-footer-area .row {
+			display: flex;
+			align-items: flex-start;
+		}
+
+		.hb-footer .hb-footer-area .col-md-3 {
+			flex: 1;
+			max-width: 25%;
+			padding: 0 15px;
+		}
+
+		.hb-footer .hb-col {
+			height: 100%;
+			padding: 20px 0;
+		}
+
+		/* Footer Image Gallery Styling */
+		.hb-footer .hb-widget {
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+
+		.hb-footer .hb-widget ul {
+			list-style: none;
+			padding: 0 !important;
+			margin: 0 !important;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 6px;
+		}
+
+		.hb-footer .hb-widget ul li {
+			margin: 0 !important;
+			padding: 0 !important;
+			overflow: hidden;
+			border-radius: 8px;
+			transition: transform 0.3s ease;
+		}
+
+		.hb-footer .hb-widget ul li:hover {
+			transform: scale(1.03);
+		}
+
+		.hb-footer .hb-widget ul li a {
+			display: block;
+			line-height: 0;
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+
+		.hb-footer .hb-widget ul li img {
+			width: 100% !important;
+			height: 75px !important;
+			object-fit: cover;
+			border-radius: 8px;
+			transition: all 0.3s ease;
+			display: block;
+		}
+
+		.hb-footer .hb-widget ul li img:hover {
+			opacity: 0.85;
+		}
+
+		/* Quick Links and Contact Section Spacing */
+		.hb-footer .hb-col ul.hb-info,
+		.hb-footer .hb-col .hb-description ul {
+			padding-left: 0 !important;
+			margin-left: 0 !important;
+		}
+
+		.hb-footer .hb-col .hb-description ul li {
+			padding-left: 0 !important;
+			margin-left: 0 !important;
+		}
+
+		/* Footer Background and Text Colors */
+		.hb-footer {
+			background-color: #0F3B4A !important;
+			color: white !important;
+		}
+
+		.hb-footer .hb-col h3 {
+			color: #C59D2F !important;
+			font-weight: 700 !important;
+			font-size: 18px !important;
+			margin-bottom: 20px !important;
+		}
+
+		.hb-footer .hb-col p,
+		.hb-footer .hb-col span,
+		.hb-footer .hb-timeandday {
+			color: white !important;
+			font-size: 14px !important;
+			line-height: 1.6 !important;
+		}
+
+		.hb-footer .hb-col a {
+			color: white !important;
+			text-decoration: none !important;
+		}
+
+		.hb-footer .hb-col a:hover {
+			color: #C59D2F !important;
+		}
+	</style>
+</head>
+<body class="hb-home hb-homeone">
+	<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!--************************************
+			Wrapper Start
+	*************************************-->
+	<div id="hb-wrapper" class="hb-wrapper hb-haslayout">
+		<!--************************************
+				Header V3 Start
+		*************************************-->
+		<header id="hb-header" class="hb-header hb-haslayout">
+			<div class="hb-topbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="hb-info-area">
+								<ul class="list-unstyled hb-info">
+									<li><a href="mailto:drbrijsclinic@gmail.com"><i class="fa fa-envelope"></i>drbrijsclinic@gmail.com</a>
+									</li>
+									<li><i class="fa fa-phone"></i>+916352214662</li>
+								</ul>
+							</div>
+							<div class="hb-socialicons-area">
+								<span class="hb-timeandday">Monday – Saturday: 10:00 AM to 1:00 PM & 5:00 PM to 8:00 PM</span>
+								<ul class="hb-socialicons hb-withoutbackground list-unstyled">
+									<li><a href="https://www.facebook.com/share/1E6cgenrGa/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://youtube.com/@radiancehairandskinclinic?si=Kyvz1cy-JHv2C4Ap"><i class="fab fa-youtube"></i></a></li>
+									<li class="hb-googleplus"><a href="https://maps.app.goo.gl/A7m18x6ewWXGSXzu8?g_st=com.google.maps.preview.copy"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="https://www.instagram.com/radiance_hair_and_skin_clinic?igsh=MXFwbHdiZzI0bmRhMw=="><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hb-navigationarea">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<strong class="hb-logo"><a href="index.html"><img src="images/Radiance Clinic PNG 5.png" alt="Radiance Hair & Skin Clinic Logo"></a></strong>
+							<div class="hb-addnav">
+								<div class="hb-searcharea">
+									<a href="#" class="search-opener"><i class="icon_search"></i></a>
+								</div>
+							</div>
+							<nav id="hb-nav" class="hb-nav">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hb-navigation" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<div id="hb-navigation" class="collapse navbar-collapse hb-navigation">
+									<ul>
+										<li>
+											<a href="index.html">Home</a>
+										</li>
+										<li>
+											<a href="service.html">Services</a>
+										</li>
+										<li class="menu-item-has-children current-menu-item">
+											<a href="javascript:void(0);">Pages</a>
+											<ul class="list-unstyled sub-menu">
+												<li><a href="aboutus.html">About Us</a></li>
+												<li><a href="testimonials.html">Testimonials</a></li>
+												<li><a href="faq.html">FAQs</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="gallery.html">Gallery</a>
+										</li>
+										<li>
+											<a href="blog-classic.html">Blog</a>
+										</li>
+										<li><a href="contactus.html">Contact</a></li>
+										<li><a href="https://radianceaesthetic.academy/">Academy</a></li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--************************************
+				Header V3 End
+		*************************************-->
+		<div class="search-popup">
+			<div class="holder">
+				<div class="block">
+					<a href="#" class="close-btn"><i class="fa fa-times"></i></a>
+					<form action="#" class="search-form">
+						<fieldset>
+							<input type="search" class="form-control" placeholder="Search">
+							<button type="submit" class="btn-primary"><i class="fa fa-search"></i></button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--************************************
+				Banner Start
+		*************************************-->
+		<div id="hb-innerbanner" class="hb-innerbanner hb-haslayout">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="hb-innerbanner-area">
+							<div  class="hb-bannarheading">
+								<h1 style="color: #0F3B4A; font-weight: bold; text-shadow: 2px 2px 4px rgba(255,255,255,0.8); background: rgba(255,255,255,0.9); padding: 10px 20px; border-radius: 5px; display: inline-block;">Testimonials</h1>
+							</div>
+							<ul class="hb-breadcrumb" style="background: rgba(255,255,255,0.9); padding: 8px 15px; border-radius: 20px; display: inline-block; margin-top: 10px;">
+								<li><a href="index-4.html" style="color: #0F3B4A; font-weight: bold; text-decoration: none;">Home</a></li>
+								<li style="color: #C59D2F; font-weight: bold;">Testimonials</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--************************************
+				Banner End
+		*************************************-->
+		<!--************************************
+				Main Start
+		*************************************-->
+		<main id="hb-main" class="hb-main hb-haslayout">
+			<!--************************************
+						Testimonial 1 Start
+			*************************************-->
+			<section id="hb-testimonial" class="hb-testimonial2 hb-sectionspace hb-haslayout">
+				<div class="container">
+					<div class="row">
+						<div class="hb-testimonialarea hb-haslayout">
+							<div class="col-xs-12 col-sm-6">
+								<div class="hb-testimonialbox hb-haslayout">
+									<div class="hb-testimonialcontentbox" style="background: rgba(255,255,255,0.95) !important; color: #333 !important;">
+										<div class="hb-description">
+											<p style="color: #333 !important; font-weight: 500;">"I had been struggling with severe acne and dark scars for years. After just a few sessions at Radiance, my skin started glowing and clearing up beautifully. Dr. Brijesha was so patient and explained everything in detail. The chemical peels and laser treatments worked wonders! I finally feel confident without makeup."</p>
+										</div>
+									</div>
+									<div class="hb-testimonialutherbox">
+										<figure>
+											<img src="https://images.unsplash.com/photo-1494790108755-2616c0763c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Neha Shah">
+										</figure>
+										<div class="hb-uthername" style="background: rgba(255,255,255,0.9); padding: 10px; border-radius: 5px; margin-top: 10px;">
+											<h3 style="color: #0F3B4A !important; margin-bottom: 5px;">Neha Shah</h3>
+											<span style="color: #C59D2F !important; font-weight: bold;">27, Surat</span> -
+											<span class="hb-stars"><span></span></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<div class="hb-testimonialbox hb-haslayout">
+									<div class="hb-testimonialcontentbox active" style="background: rgba(255,255,255,0.95) !important; color: #333 !important;">
+										<div class="hb-description">
+											<p style="color: #333 !important; font-weight: 500;">"I was losing hair rapidly and tried many shampoos and oils with no results. At Radiance, I underwent PRP treatment under Dr. Brijesha's guidance. After 3 sessions, my hair fall reduced drastically, and new hair started growing. Highly recommend it to any man facing early baldness!"</p>
+										</div>
+									</div>
+									<div class="hb-testimonialutherbox">
+										<figure>
+											<img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Amit Trivedi">
+										</figure>
+										<div class="hb-uthername" style="background: rgba(255,255,255,0.9); padding: 10px; border-radius: 5px; margin-top: 10px;">
+											<h3 style="color: #0F3B4A !important; margin-bottom: 5px;">Amit Trivedi</h3>
+											<span style="color: #C59D2F !important; font-weight: bold;">35, Navsari</span> -
+											<span class="hb-stars"><span></span></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--************************************
+						Testimonial 1 End
+			*************************************-->
+			<!--************************************
+						Testimonial 2 Start
+			*************************************-->
+			<div id="hb-testimonial" class="hb-testimonial hb-sectionspace hb-haslayout">
+				<div class="container">
+					<div class="row">
+						<div class=" col-sm-12 col-xs-12 col-xs-offset-0 col-md-8 col-md-offset-2">
+							<div id="hb-testimonialslider" class="hb-testimonialslider owl-carousel hb-haslayout" style="position: relative;">
+								<div class="item">
+									<div class="hb-testimonialcontent">
+										<figure>
+											<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="quote icon" style="width: 60px; height: 60px; filter: hue-rotate(200deg) saturate(0.8) brightness(0.7);">
+										</figure>
+										<div class="hb-description">
+											<p>I had been struggling with severe acne and dark scars for years. After just a few sessions at Radiance, my skin started glowing and clearing up beautifully. Dr. Brijesha was so patient and explained everything in detail. The chemical peels and laser treatments worked wonders! I finally feel confident without makeup.</p>
+										</div>
+										<div  class="hb-uthername">
+											<h3>Neha Shah</h3> -
+											<span class="hb-stars"><span></span></span>
+											<span>27, Surat</span>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="hb-testimonialcontent">
+										<figure>
+											<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="quote icon" style="width: 60px; height: 60px; filter: hue-rotate(200deg) saturate(0.8) brightness(0.7);">
+										</figure>
+										<div class="hb-description">
+											<p>I was losing hair rapidly and tried many shampoos and oils with no results. At Radiance, I underwent PRP treatment under Dr. Brijesha's guidance. After 3 sessions, my hair fall reduced drastically, and new hair started growing. Highly recommend it to any man facing early baldness!</p>
+										</div>
+										<div  class="hb-uthername">
+											<h3>Amit Trivedi</h3> -
+											<span class="hb-stars"><span></span></span>
+											<span>35, Navsari</span>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="hb-testimonialcontent">
+										<figure>
+											<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="quote icon" style="width: 60px; height: 60px; filter: hue-rotate(200deg) saturate(0.8) brightness(0.7);">
+										</figure>
+										<div class="hb-description">
+											<p>I always wanted naturally tinted lips without daily lipstick. Radiance Clinic made it possible! The lip blush PMU treatment was painless, and the result looks so natural. It's been months, and I still get compliments daily. Thank you, Dr. Brijesha and team!</p>
+										</div>
+										<div  class="hb-uthername">
+											<h3>Riya Patel</h3> -
+											<span class="hb-stars"><span></span></span>
+											<span>30, Vapi</span>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="hb-testimonialcontent">
+										<figure>
+											<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="quote icon" style="width: 60px; height: 60px; filter: hue-rotate(200deg) saturate(0.8) brightness(0.7);">
+										</figure>
+										<div class="hb-description">
+											<p>I opted for laser hair removal to avoid daily shaving and razor bumps on my neck. The results are incredible! The sessions were quick and almost painless. I now have a clean neckline and well-defined beard without irritation. Best decision ever!</p>
+										</div>
+										<div  class="hb-uthername">
+											<h3>Kunal Desai</h3> -
+											<span class="hb-stars"><span></span></span>
+											<span>29, Bharuch</span>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="hb-testimonialcontent">
+										<figure>
+											<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="quote icon" style="width: 60px; height: 60px; filter: hue-rotate(200deg) saturate(0.8) brightness(0.7);">
+										</figure>
+										<div class="hb-description">
+											<p>Fine lines around my eyes and forehead were bothering me. At Radiance, I received Botox and RF skin tightening, and the change is amazing yet natural-looking. My face looks fresh and youthful again. Dr. Brijesha's approach is both artistic and scientific!</p>
+										</div>
+										<div  class="hb-uthername">
+											<h3>Dr. Pooja Mehta</h3> -
+											<span class="hb-stars"><span></span></span>
+											<span>42, Surat</span>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="hb-testimonialcontent">
+										<figure>
+											<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="quote icon" style="width: 60px; height: 60px; filter: hue-rotate(200deg) saturate(0.8) brightness(0.7);">
+										</figure>
+										<div class="hb-description">
+											<p>I had severe pigmentation and dark spots on my face that made me very self-conscious. After undergoing chemical peels and laser treatments at Radiance, my skin tone has become so much more even and bright. The results exceeded my expectations!</p>
+										</div>
+										<div  class="hb-uthername">
+											<h3>Meera Joshi</h3> -
+											<span class="hb-stars"><span></span></span>
+											<span>38, Vadodara</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="hb-testimonialsthumbslider" class="hb-testimonialsthumbslider hb-thumbs owl-carousel">
+								<div class="item hb-thumb">
+									<figure><img src="https://images.unsplash.com/photo-1494790108755-2616c0763c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Neha Shah"></figure>
+								</div>
+								<div class="item hb-thumb">
+									<figure><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Amit Trivedi"></figure>
+								</div>
+								<div class="item hb-thumb">
+									<figure><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Riya Patel"></figure>
+								</div>
+								<div class="item hb-thumb">
+									<figure><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Kunal Desai"></figure>
+								</div>
+								<div class="item hb-thumb">
+									<figure><img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Dr. Pooja Mehta"></figure>
+								</div>
+								<div class="item hb-thumb">
+									<figure><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Meera Joshi"></figure>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--************************************
+						Testimonial 2 End
+			*************************************-->
+			<!--************************************
+						Testimonial 1 Start
+			*************************************-->
+			<section id="hb-testimonial" class="hb-testimonial2 hb-sectionspace hb-haslayout">
+				<div class="container">
+					<div class="row">
+						<div class="hb-testimonialarea hb-haslayout">
+							<div class="col-xs-12 col-sm-6 col-md-4">
+								<div class="hb-testimonialbox hb-haslayout">
+									<div class="hb-testimonialcontentbox" style="background: rgba(255,255,255,0.95) !important; color: #333 !important;">
+										<div class="hb-description">
+											<p style="color: #333 !important; font-weight: 500;">"I always wanted naturally tinted lips without daily lipstick. Radiance Clinic made it possible! The lip blush PMU treatment was painless, and the result looks so natural. It's been months, and I still get compliments daily. Thank you, Dr. Brijesha and team!"</p>
+										</div>
+									</div>
+									<div class="hb-testimonialutherbox">
+										<figure>
+											<img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Riya Patel">
+										</figure>
+										<div class="hb-uthername" style="background: rgba(255,255,255,0.9); padding: 10px; border-radius: 5px; margin-top: 10px;">
+											<h3 style="color: #0F3B4A !important; margin-bottom: 5px;">Riya Patel</h3>
+											<span style="color: #C59D2F !important; font-weight: bold;">30, Vapi</span> -
+											<span class="hb-stars"><span></span></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-4">
+								<div class="hb-testimonialbox hb-haslayout">
+									<div class="hb-testimonialcontentbox active" style="background: rgba(255,255,255,0.95) !important; color: #333 !important;">
+										<div class="hb-description">
+											<p style="color: #333 !important; font-weight: 500;">"I opted for laser hair removal to avoid daily shaving and razor bumps on my neck. The results are incredible! The sessions were quick and almost painless. I now have a clean neckline and well-defined beard without irritation. Best decision ever!"</p>
+										</div>
+									</div>
+									<div class="hb-testimonialutherbox">
+										<figure>
+											<img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Kunal Desai">
+										</figure>
+										<div class="hb-uthername" style="background: rgba(255,255,255,0.9); padding: 10px; border-radius: 5px; margin-top: 10px;">
+											<h3 style="color: #0F3B4A !important; margin-bottom: 5px;">Kunal Desai</h3>
+											<span style="color: #C59D2F !important; font-weight: bold;">29, Bharuch</span> -
+											<span class="hb-stars"><span></span></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-4">
+								<div class="hb-testimonialbox hb-haslayout">
+									<div class="hb-testimonialcontentbox" style="background: rgba(255,255,255,0.95) !important; color: #333 !important;">
+										<div class="hb-description">
+											<p style="color: #333 !important; font-weight: 500;">"Fine lines around my eyes and forehead were bothering me. At Radiance, I received Botox and RF skin tightening, and the change is amazing yet natural-looking. My face looks fresh and youthful again. Dr. Brijesha's approach is both artistic and scientific!"</p>
+										</div>
+									</div>
+									<div class="hb-testimonialutherbox">
+										<figure>
+											<img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Dr. Pooja Mehta">
+										</figure>
+										<div class="hb-uthername" style="background: rgba(255,255,255,0.9); padding: 10px; border-radius: 5px; margin-top: 10px;">
+											<h3 style="color: #0F3B4A !important; margin-bottom: 5px;">Dr. Pooja Mehta</h3>
+											<span style="color: #C59D2F !important; font-weight: bold;">42, Surat</span> -
+											<span class="hb-stars"><span></span></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--************************************
+						Testimonial 1 End
+			*************************************-->
+			<!--************************************
+						Content Form Start
+			*************************************-->
+			<section class="hb-contactus paddingbottom hb-haslayout">
+				<div class="container">
+					<div class="row">
+						<div class="hb-contactus-formarea">
+					<div class="col-xs-12">
+						<div class="hb-headcontent">
+							<h2 style="color: #0F3B4A;">Book Your Consultation Today!</h2>
+							<div class="hb-description">
+								<p>Fill out the form below to receive a free and confidential initial consultation with Dr. Brijesha Chauhan.</p>
+							</div>
+						</div>
+					</div>
+					<form class="hb-formtheme hb-contactusform">
+						<fieldset>
+							<div class="col-xs-12 col-sm-12 col-md-4">
+								<div class="form-group">
+									<input type="text" class="form-control" name="name" placeholder="Name">
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-4">
+								<div class="form-group">
+									<input type="text" class="form-control" name="email" placeholder="Email">
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-4">
+								<div class="form-group">
+									<div class="hb-select">
+										<select class="form-control">
+											<option>Select Treatment</option>
+											<option>Acne & Scar Treatment</option>
+											<option>Hair Fall Treatment</option>
+											<option>Laser Hair Removal</option>
+											<option>Anti-Aging Treatment</option>
+											<option>Permanent Makeup</option>
+											<option>HydraFacial</option>
+											<option>Other</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12">
+								<div class="form-group">
+									<textarea class="form-control" placeholder="Tell us about your skin/hair concerns...">Messages</textarea>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12">
+								<div class="form-group">
+									<button type="submit" class="hb-btn">BOOK CONSULTATION</button>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!--************************************
+				Main End
+		*************************************-->
+		<!--************************************
+				Footer Start
+		*************************************-->
+		<footer id="hb-footer" class="hb-footer hb-haslayout">
+			<div class="hb-footer-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col">
+								<strong class="hb-logo">
+									<a href="javascript:void"><img src="images/Radiance Clinic PNG 6.png" alt="Radiance Hair & Skin Clinic"></a>
+								</strong>
+								<div style="margin: 20px 0;">
+									<span class="hb-timeandday">Monday – Saturday:<br>10:00 AM to 1:00 PM &<br>5:00 PM to 8:00 PM<br><br>Sunday:<br>10:00 AM to 1:00 PM<br>(By Appointment Only)</span>
+								</div>
+								<ul class="list-unstyled hb-socialicons">
+									<li><a href="https://www.facebook.com/share/1E6cgenrGa/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://youtube.com/@radiancehairandskinclinic?si=Kyvz1cy-JHv2C4Ap"><i class="fab fa-youtube"></i></a></li>
+									<li class="hb-googleplus"><a href="https://maps.app.goo.gl/A7m18x6ewWXGSXzu8?g_st=com.google.maps.preview.copy"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="https://www.instagram.com/radiance_hair_and_skin_clinic?igsh=MXFwbHdiZzI0bmRhMw=="><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col">
+								<h3>Contacts</h3>
+								<ul class="list-unstyled hb-info">
+									<li style="margin-bottom: 10px;"><span><strong>Phone:</strong><br>+916352214662</span></li>
+									<li style="margin-bottom: 15px;"><span><strong>Email:</strong><br><a href="mailto:radiance.srt@gmail.com">radiance.srt@gmail.com</a></span></li>
+									<li><span><strong>Address:</strong><br>408, 4th Floor, Green Palladia,<br>Opp. Raj World Shopping<em><br>Palanpore Gam, Adajan, Surat,<br>Gujarat (Pin-395009)</em></span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col">
+								<h3>Quick Links</h3>
+								<div class="hb-description">
+									<ul style="list-style: none; padding: 0; margin: 0;">
+										<li style="margin-bottom: 8px;"><a href="index-4.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Home</a></li>
+										<li style="margin-bottom: 8px;"><a href="aboutus.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">About Us</a></li>
+										<li style="margin-bottom: 8px;"><a href="service.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Services</a></li>
+										<li style="margin-bottom: 8px;"><a href="gallery.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Gallery</a></li>
+										<li style="margin-bottom: 8px;"><a href="blog-classic.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Blog</a></li>
+										<li style="margin-bottom: 8px;"><a href="testimonials.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Testimonials</a></li>
+										<li style="margin-bottom: 8px;"><a href="faq.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">FAQ</a></li>
+										<li style="margin-bottom: 8px;"><a href="contactus.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Contact Us</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col hb-widget">
+								<ul>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-1.jpeg" alt="HydraFacial treatment"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-2.jpeg" alt="Botox consultation"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-3.jpeg" alt="Microneedling treatment"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-4.jpeg" alt="Chemical peel"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-5.jpeg" alt="Laser treatment"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-6.jpeg" alt="Wellness consultation"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hb-footerbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<span class="hb-copyright" style="display: block; text-align: center;">
+								Copyright ©2025 Radiance Hair & Skin Clinic. All Rights Reserved.
+							  </span>
+							<ul class="list-unstyled hb-footernav">
+								<!-- <li><a href="./aboutus.html">About </a></li>
+								<li><a href="./contactus.html">Contact</a></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--************************************
+				Footer End
+		*************************************-->
+		<span id="back-top" class="text-center rounded-circle fa fa-angle-up"></span>
+		<div id="loader" class="loader-holder">
+			<div class="block">
+			    <div class="dot white"></div>
+			    <div class="dot"></div>
+			    <div class="dot"></div>
+			    <div class="dot"></div>
+			    <div class="dot"></div>
+			</div>
+		</div>
+	</div>
+	<!--************************************
+			Wrapper End
+	*************************************-->
+	<script src="js/vendor/jquery-library.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	<script src="js/isotop.js"></script>
+	<script src="js/html5lightbox.js"></script>
+	<script src="js/countTo.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

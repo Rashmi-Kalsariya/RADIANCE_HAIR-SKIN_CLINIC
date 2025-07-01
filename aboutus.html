@@ -1,0 +1,882 @@
+<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->	<html class="no-js" lang=""> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Us | Radiance Hair & Skin Clinic</title>
+	<link rel="shortcut icon" href="./images/IMG-20250617-WA0013.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/icofont.css">
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/color.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/html5lightbox.css">
+	<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	<style>
+		/* Footer Column Spacing and Layout */
+		.hb-footer .hb-footer-area .row {
+			display: flex;
+			align-items: flex-start;
+		}
+
+		.hb-footer .hb-footer-area .col-md-3 {
+			flex: 1;
+			max-width: 25%;
+			padding: 0 15px;
+		}
+
+		.hb-footer .hb-col {
+			height: 100%;
+			padding: 20px 0;
+		}
+
+		/* Footer Image Gallery Styling */
+		.hb-footer .hb-widget {
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+
+		.hb-footer .hb-widget ul {
+			list-style: none;
+			padding: 0 !important;
+			margin: 0 !important;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 6px;
+		}
+
+		.hb-footer .hb-widget ul li {
+			margin: 0 !important;
+			padding: 0 !important;
+			overflow: hidden;
+			border-radius: 8px;
+			transition: transform 0.3s ease;
+		}
+
+		.hb-footer .hb-widget ul li:hover {
+			transform: scale(1.03);
+		}
+
+		.hb-footer .hb-widget ul li a {
+			display: block;
+			line-height: 0;
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+
+		.hb-footer .hb-widget ul li img {
+			width: 100% !important;
+			height: 75px !important;
+			object-fit: cover;
+			border-radius: 8px;
+			transition: all 0.3s ease;
+			display: block;
+		}
+
+		.hb-footer .hb-widget ul li img:hover {
+			opacity: 0.85;
+		}
+
+		/* Quick Links and Contact Section Spacing */
+		.hb-footer .hb-col ul.hb-info,
+		.hb-footer .hb-col .hb-description ul {
+			padding-left: 0 !important;
+			margin-left: 0 !important;
+		}
+
+		.hb-footer .hb-col .hb-description ul li {
+			padding-left: 0 !important;
+			margin-left: 0 !important;
+		}
+
+		/* Footer Background and Text Colors */
+		.hb-footer {
+			background-color: #0F3B4A !important;
+			color: white !important;
+		}
+
+		.hb-footer .hb-col h3 {
+			color: #C59D2F !important;
+			font-weight: 700 !important;
+			font-size: 18px !important;
+			margin-bottom: 20px !important;
+		}
+
+		.hb-footer .hb-col p,
+		.hb-footer .hb-col span,
+		.hb-footer .hb-timeandday {
+			color: white !important;
+			font-size: 14px !important;
+			line-height: 1.6 !important;
+		}
+
+		.hb-footer .hb-col a {
+			color: white !important;
+			text-decoration: none !important;
+		}
+
+		.hb-footer .hb-col a:hover {
+			color: #C59D2F !important;
+		}
+
+		/* Testimonials Section Styling */
+		.hb-testimonialarea {
+			padding: 60px 0 !important;
+			background: #ffffff !important;
+		}
+
+		.hb-testimonialbox {
+			margin-bottom: 30px !important;
+			height: 100% !important;
+			display: flex !important;
+			flex-direction: column !important;
+		}
+
+		.hb-testimonialcontentbox {
+			background: rgba(255,255,255,0.98) !important;
+			border-radius: 15px !important;
+			padding: 25px !important;
+			box-shadow: 0 8px 25px rgba(15, 59, 74, 0.1) !important;
+			border: 1px solid rgba(197, 157, 47, 0.2) !important;
+			flex-grow: 1 !important;
+			margin-bottom: 20px !important;
+			transition: all 0.3s ease !important;
+		}
+
+		.hb-testimonialcontentbox:hover {
+			transform: translateY(-5px) !important;
+			box-shadow: 0 15px 35px rgba(15, 59, 74, 0.15) !important;
+		}
+
+		.hb-testimonialcontentbox.active {
+			border: 2px solid #C59D2F !important;
+			box-shadow: 0 12px 30px rgba(197, 157, 47, 0.2) !important;
+		}
+
+		.hb-testimonialcontentbox .hb-description p {
+			color: #333 !important;
+			font-weight: 500 !important;
+			line-height: 1.7 !important;
+			font-size: 15px !important;
+			margin: 0 !important;
+			font-style: italic !important;
+		}
+
+		.hb-testimonialutherbox {
+			display: flex !important;
+			align-items: center !important;
+			background: rgba(255,255,255,0.95) !important;
+			padding: 15px !important;
+			border-radius: 12px !important;
+			box-shadow: 0 4px 15px rgba(15, 59, 74, 0.08) !important;
+		}
+
+		.hb-testimonialutherbox figure {
+			margin: 0 15px 0 0 !important;
+			flex-shrink: 0 !important;
+		}
+
+		.hb-testimonialutherbox figure img {
+			width: 60px !important;
+			height: 60px !important;
+			border-radius: 50% !important;
+			object-fit: cover !important;
+			border: 3px solid #C59D2F !important;
+		}
+
+		.hb-uthername {
+			background: transparent !important;
+			padding: 0 !important;
+			margin: 0 !important;
+			flex-grow: 1 !important;
+		}
+
+		.hb-uthername h3 {
+			color: #0F3B4A !important;
+			margin: 0 0 5px 0 !important;
+			font-size: 16px !important;
+			font-weight: 700 !important;
+		}
+
+		.hb-uthername span {
+			color: #C59D2F !important;
+			font-weight: 600 !important;
+			font-size: 14px !important;
+		}
+
+		.hb-stars {
+			color: #C59D2F !important;
+			font-size: 16px !important;
+			margin-left: 5px !important;
+		}
+
+		/* Remove all arrows/triangles in testimonials */
+		.hb-testimonialbox:before,
+		.hb-testimonialbox:after,
+		.hb-testimonialcontentbox:before,
+		.hb-testimonialcontentbox:after {
+			display: none !important;
+			visibility: hidden !important;
+			opacity: 0 !important;
+		}
+
+		.hb-testimonialcontentbox.active:before,
+		.hb-testimonialcontentbox.active:after {
+			display: none !important;
+			visibility: hidden !important;
+			opacity: 0 !important;
+		}
+
+		/* Hide any arrow elements completely */
+		.hb-testimonialarea .arrow,
+		.hb-testimonialarea .arrow-down,
+		.hb-testimonialarea .triangle,
+		.hb-testimonialarea .triangle-down,
+		.hb-testimonialarea [class*="arrow"],
+		.hb-testimonialarea [class*="triangle"] {
+			display: none !important;
+			visibility: hidden !important;
+			opacity: 0 !important;
+		}
+
+		/* Hide all pseudo-element arrows */
+		.hb-testimonialarea [class*="arrow"]:before,
+		.hb-testimonialarea [class*="arrow"]:after,
+		.hb-testimonialarea [class*="triangle"]:before,
+		.hb-testimonialarea [class*="triangle"]:after,
+		.hb-testimonialarea *:before,
+		.hb-testimonialarea *:after {
+			border: none !important;
+			background: none !important;
+			content: none !important;
+		}
+
+		/* Responsive adjustments */
+		@media (max-width: 768px) {
+			.hb-testimonialarea {
+				padding: 40px 0 !important;
+			}
+
+			.hb-testimonialbox {
+				margin-bottom: 25px !important;
+			}
+
+			.hb-testimonialcontentbox {
+				padding: 20px !important;
+			}
+
+			.hb-testimonialutherbox {
+				padding: 12px !important;
+			}
+		}
+	</style>
+</head>
+<body class="hb-home hb-homeone">
+	<!--[if lt IE 8]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!--************************************
+			Wrapper Start
+	*************************************-->
+	<div id="hb-wrapper" class="hb-wrapper hb-haslayout">
+		<!--************************************
+				Header V3 Start
+		*************************************-->
+		<header id="hb-header" class="hb-header hb-haslayout">
+			<div class="hb-topbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="hb-info-area">
+								<ul class="list-unstyled hb-info">
+									<li><a href="mailto:radiance.srt@gmail.com"><i class="fa fa-envelope"></i>radiance.srt@gmail.com</a>
+									</li>
+									<li><i class="fa fa-phone"></i>+916352214662</li>
+								</ul>
+							</div>
+							<div class="hb-socialicons-area">
+								<span class="hb-timeandday">Monday – Saturday: 10:00 AM to 1:00 PM & 5:00 PM to 8:00 PM</span>
+								<ul class="hb-socialicons hb-withoutbackground list-unstyled">
+									<li><a href="https://www.facebook.com/share/1E6cgenrGa/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://youtube.com/@radiancehairandskinclinic?si=Kyvz1cy-JHv2C4Ap"><i class="fab fa-youtube"></i></a></li>
+									<li class="hb-googleplus"><a href="https://maps.app.goo.gl/A7m18x6ewWXGSXzu8?g_st=com.google.maps.preview.copy"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="https://www.instagram.com/radiance_hair_and_skin_clinic?igsh=MXFwbHdiZzI0bmRhMw=="><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hb-navigationarea">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<strong class="hb-logo"><a href="index.html"><img src="images/Radiance Clinic PNG 5.png" alt="Radiance Hair & Skin Clinic Logo"></a></strong>
+							<div class="hb-addnav">
+								<div class="hb-searcharea">
+									<a href="#" class="search-opener"><i class="icon_search"></i></a>
+								</div>
+							</div>
+							<nav id="hb-nav" class="hb-nav">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hb-navigation" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<div id="hb-navigation" class="collapse navbar-collapse hb-navigation">
+									<ul>
+										<li>
+											<a href="index.html">Home</a>
+										</li>
+										<li>
+											<a href="service.html">Services</a>
+										</li>
+										<li class="menu-item-has-children current-menu-item">
+											<a href="javascript:void(0);">Pages</a>
+											<ul class="list-unstyled sub-menu">
+												<li><a href="aboutus.html">About Us</a></li>
+												<li><a href="testimonials.html">Testimonials</a></li>
+												<li><a href="faq.html">FAQs</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="gallery.html">Gallery</a>
+										</li>
+										<li>
+											<a href="blog-classic.html">Blog</a>
+										</li>
+										<li><a href="contactus.html">Contact</a></li>
+										<li><a href="https://radianceaesthetic.academy/">Academy</a></li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--************************************
+				Header V3 End
+		*************************************-->
+		<div class="search-popup">
+			<div class="holder">
+				<div class="block">
+					<a href="#" class="close-btn"><i class="fa fa-times"></i></a>
+					<form action="#" class="search-form">
+						<fieldset>
+							<input type="search" class="form-control" placeholder="Search">
+							<button type="submit" class="btn-primary"><i class="fa fa-search"></i></button>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--************************************
+				Banner Start
+		*************************************-->
+		<div id="hb-innerbanner" class="hb-innerbanner hb-haslayout">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="hb-innerbanner-area">
+							<div  class="hb-bannarheading">
+								<h1 style="color: #0F3B4A; font-weight: bold; text-shadow: 2px 2px 4px rgba(255,255,255,0.8); background: rgba(255,255,255,0.9); padding: 10px 20px; border-radius: 5px; display: inline-block;">About Us</h1>
+							</div>
+							<ul class="list-unstyled hb-breadcrumb" style="background: rgba(255,255,255,0.9); padding: 8px 15px; border-radius: 20px; display: inline-block; margin-top: 10px;">
+								<li><a href="index-4.html" style="color: #0F3B4A; font-weight: bold; text-decoration: none;">Home</a></li>
+								<li style="color: #C59D2F; font-weight: bold;">about us</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--************************************
+				Banner End
+		*************************************-->
+		<!--************************************
+				Main Start
+		*************************************-->
+		<main id="hb-main" class="hb-main hb-haslayout">
+			<!--************************************
+						Paradise Center Start
+			*************************************-->
+			<section id="hb-paradisecenter" class="hb-paradisecenter hb-sectionspace hb-haslayout">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2">
+							<div class="hb-sectionhead mb-50">
+								<div class="hb-sectiontitle">
+									<h2><span style="color: #C59D2F; font-family: 'Arizonia', cursive;">About Us</span>
+										<span style="color: #0F3B4A;">Radiance Hair & Skin Clinic</span>
+									</h2>
+								</div>
+								<div class="hb-headcontent">
+									<h2>Expert Care by Dr. Brijesha Chauhan</h2>
+									<div class="hb-description">
+										<p>Welcome to Radiance Hair & Skin Clinic, a trusted destination for advanced dermatology, cosmetology, and aesthetic treatments. Founded by Dr. Brijesha Chauhan, a renowned expert in clinical cosmetology and trichology, our clinic is committed to providing holistic, customized care for every skin and hair concern.</p>
+
+										<p>Located in the heart of SURAT, Radiance Hair & Skin Clinic is equipped with the latest US-FDA approved technologies and medically proven treatments. Whether you're dealing with acne, pigmentation, hair loss, aging skin, or looking for a non-surgical transformation, we deliver safe, effective, and long-lasting results under medical supervision.</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- VIDEO SECTION: Local Video with Cover Image, Responsive Aspect Ratio -->
+							<div class="hb-paradisecenter-area hb-haslayout" style="margin: 40px 0; position: relative; text-align: center;">
+							  <div style="position: relative; width: 100%; max-width: 700px; margin: 0 auto;">
+							    <div style="position: relative; width: 100%; padding-top: 56.25%; /* 16:9 Aspect Ratio */">
+							      <video controls poster="images/CLINIC-1.jpeg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius:10px; box-shadow: 0 4px 16px rgba(0,0,0,0.08); background: #000; object-fit: cover;">
+							        <source src="videos/Radiance%20Hair%20&%20Skin%20Clinic.mp4" type="video/mp4">
+							        Your browser does not support the video tag.
+							      </video>
+							    </div>
+							  </div>
+							</div>
+							<!-- END VIDEO SECTION -->
+
+							<!-- SECOND PART OF TEXT CONTENT -->
+							<div class="hb-headcontent" style="margin-top: 40px;">
+								<div class="hb-description">
+									<p>We believe beauty is not just about appearance but confidence. Our highly trained team of doctors, aestheticians, and skin therapists work together to design tailor-made solutions that align with your unique needs and lifestyle. With a warm, welcoming atmosphere and a commitment to ethical practices, Radiance has become a trusted name in skin and hair health.</p>
+
+									<p><strong>Discover the new you — because your skin and hair deserve expert care.</strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--************************************
+						Paradise Center End
+			*************************************-->
+			<!--************************************
+						Team Start
+			*************************************-->
+			<!-- <section id="hb-team" class="hb-team hb-sectionspace hb-bg hb-haslayout">
+				<div class="container">
+					<div class="row">
+						<div class=" col-xs-12 col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2">
+							<div class="hb-sectionhead mb-50">
+								<div class="hb-sectiontitle">
+									<h2><span style="color: #C59D2F; font-family: 'Arizonia', cursive;">Our Team</span>
+										<span style="color: #0F3B4A;">Meet our Experts</span>
+									</h2>
+								</div>
+							</div>
+						</div>
+						<div class="hb-teamarea hb-haslayout">
+							<div class="col-xs-12 col-sm-6 col-md-3">
+								<div class="hb-teambox">
+									<figure class="hb-teamimg">
+										<img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=170&h=170&q=80" alt="Dr. Brijesha Chauhan - Founder">
+										<figcaption class="hb-imagecontent">
+										</figcaption>
+									</figure>
+									<div class="hb-teamcontent">
+										<h3 class="hb-headingtree">Dr. Brijesha Chauhan
+											<span>Founder & Clinical Cosmetologist</span>
+										</h3>
+										<ul class="list-unstyled hb-socialicons hb-socialicons-sm">
+											<li class="hb-facebook"><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
+											<li class="hb-twitter"><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
+											<li class="hb-googleplus"><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a></li>
+											<li class="hb-linkedin"><a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3">
+								<div class="hb-teambox">
+									<figure class="hb-teamimg">
+										<img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=170&h=170&q=80" alt="Senior Aesthetician">
+										<figcaption class="hb-imagecontent">
+										</figcaption>
+									</figure>
+									<div class="hb-teamcontent">
+										<h3 class="hb-headingtree">Priya Sharma
+											<span>Senior Aesthetician</span>
+										</h3>
+										<ul class="list-unstyled hb-socialicons hb-socialicons-sm">
+											<li class="hb-facebook"><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
+											<li class="hb-twitter"><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
+											<li class="hb-googleplus"><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a></li>
+											<li class="hb-linkedin"><a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3">
+								<div class="hb-teambox">
+									<figure class="hb-teamimg">
+										<img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=170&h=170&q=80" alt="Laser Technician">
+										<figcaption class="hb-imagecontent">
+										</figcaption>
+									</figure>
+									<div class="hb-teamcontent">
+										<h3 class="hb-headingtree">Rahul Patel
+											<span>Laser Technician</span>
+										</h3>
+										<ul class="list-unstyled hb-socialicons hb-socialicons-sm">
+											<li class="hb-facebook"><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
+											<li class="hb-twitter"><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
+											<li class="hb-googleplus"><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a></li>
+											<li class="hb-linkedin"><a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3">
+								<div class="hb-teambox">
+									<figure class="hb-teamimg">
+										<img src="https://images.unsplash.com/photo-1594824388853-e4d2e8e5e7e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=170&h=170&q=80" alt="Trichologist">
+										<figcaption class="hb-imagecontent">
+										</figcaption>
+									</figure>
+									<div class="hb-teamcontent">
+										<h3 class="hb-headingtree">Kavya Desai
+											<span>Hair Specialist</span>
+										</h3>
+										<ul class="list-unstyled hb-socialicons hb-socialicons-sm">
+											<li class="hb-facebook"><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
+											<li class="hb-twitter"><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
+											<li class="hb-googleplus"><a href="javascript:void(0);"><i class="fab fa-google-plus-g"></i></a></li>
+											<li class="hb-linkedin"><a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
+			<!--************************************
+						Team End
+			*************************************-->
+			<!--************************************
+						Why Choose US Start
+			*************************************-->
+			<section id="hb-whychooseus" class="hb-whychooseus hb-sectionspace hb-haslayout">
+				<div class="container">
+					<div class="row">
+						<div class=" col-xs-12 col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-2">
+							<div class="hb-sectionhead mb-50">
+								<div class="hb-sectiontitle">
+									<h2><span style="color: #C59D2F; font-family: 'Arizonia', cursive;">Our Commitment</span>
+										Mission & Values
+									</h2>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<figure class="hb-whychooseus-img">
+								<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=565&h=420&q=80" alt="Advanced skincare treatment at Radiance Clinic">
+							</figure>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<div class="hb-whychooseus-content">
+								<div class="hb-whychooseus-title">
+									<h3 class="hb-twoheading" style="color: #0F3B4A; font-family: 'Arizonia', cursive;">Our Mission</h3>
+								</div>
+								<ul class="list-unstyled hb-whychooseus-list" style="color: #0F3B4A; line-height: 1.8;">
+									<li style="margin-bottom: 12px; position: relative; padding-left: 20px;">
+										<span style="position: absolute; left: 0; color: #C59D2F; font-weight: bold;">•</span>
+										To deliver high-quality, result-driven skin and hair treatments through advanced medical technologies and clinical expertise.
+									</li>
+									<li style="margin-bottom: 12px; position: relative; padding-left: 20px;">
+										<span style="position: absolute; left: 0; color: #C59D2F; font-weight: bold;">•</span>
+										To ensure patient satisfaction and safety through ethical, transparent, and personalized treatment plans.
+									</li>
+									<li style="margin-bottom: 12px; position: relative; padding-left: 20px;">
+										<span style="position: absolute; left: 0; color: #C59D2F; font-weight: bold;">•</span>
+										To continuously evolve with the latest global innovations in dermatology and cosmetology.
+									</li>
+									<li style="margin-bottom: 12px; position: relative; padding-left: 20px;">
+										<span style="position: absolute; left: 0; color: #C59D2F; font-weight: bold;">•</span>
+										To educate and build awareness about holistic skin and hair health in the community.
+									</li>
+								</ul>
+								<div id="hb-statisticscounters" class="hb-statisticscounters">
+									<div class="hb-counter">
+										<h3><span data-from="0" data-to="2500" data-speed="2000" data-refresh-interval="50">2500</span>+</h3>
+										<h4>Happy Clients</h4>
+									</div>
+									<div class="hb-counter">
+										<h3><span data-from="0" data-to="15" data-speed="2000" data-refresh-interval="50">15</span></h3>
+										<h4>Expert Staff</h4>
+									</div>
+									<div class="hb-counter">
+										<h3><span data-from="0" data-to="25" data-speed="2000" data-refresh-interval="50">25</span>+</h3>
+										<h4>Treatments</h4>
+									</div>
+									<div class="hb-counter">
+<h3><span data-from="0" data-to="8" data-speed="2000" data-refresh-interval="50">8</span></h3>
+<h4>Years Experience</h4>
+</div>
+</div>
+<div class="hb-btnarea">
+<a href="service.html" class="hb-btn"><i class="fa fa-gift"></i>Our Services</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--************************************
+						Why Choose US End
+			*************************************-->
+			<!--************************************
+						Testimonial Start
+			*************************************-->
+			<div class="container">
+				<div class="row">
+					<div class="hb-testimonialarea hb-haslayout">
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="hb-testimonialbox hb-haslayout">
+								<div class="hb-testimonialcontentbox" style="background: rgba(255,255,255,0.95) !important; color: #333 !important;">
+									<div class="hb-description">
+										<p style="color: #333 !important; font-weight: 500;">"I always wanted naturally tinted lips without daily lipstick. Radiance Clinic made it possible! The lip blush PMU treatment was painless, and the result looks so natural. It's been months, and I still get compliments daily. Thank you, Dr. Brijesha and team!"</p>
+									</div>
+								</div>
+								<div class="hb-testimonialutherbox">
+									<figure>
+										<img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Riya Patel">
+									</figure>
+									<div class="hb-uthername" style="background: rgba(255,255,255,0.9); padding: 10px; border-radius: 5px; margin-top: 10px;">
+										<h3 style="color: #0F3B4A !important; margin-bottom: 5px;">Riya Patel</h3>
+										<span style="color: #C59D2F !important; font-weight: bold;">30, Vapi</span> -
+										<span class="hb-stars"><span></span></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="hb-testimonialbox hb-haslayout">
+								<div class="hb-testimonialcontentbox active" style="background: rgba(255,255,255,0.95) !important; color: #333 !important;">
+									<div class="hb-description">
+										<p style="color: #333 !important; font-weight: 500;">"I opted for laser hair removal to avoid daily shaving and razor bumps on my neck. The results are incredible! The sessions were quick and almost painless. I now have a clean neckline and well-defined beard without irritation. Best decision ever!"</p>
+									</div>
+								</div>
+								<div class="hb-testimonialutherbox">
+									<figure>
+										<img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Kunal Desai">
+									</figure>
+									<div class="hb-uthername" style="background: rgba(255,255,255,0.9); padding: 10px; border-radius: 5px; margin-top: 10px;">
+										<h3 style="color: #0F3B4A !important; margin-bottom: 5px;">Kunal Desai</h3>
+										<span style="color: #C59D2F !important; font-weight: bold;">29, Bharuch</span> -
+										<span class="hb-stars"><span></span></span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4">
+							<div class="hb-testimonialbox hb-haslayout">
+								<div class="hb-testimonialcontentbox" style="background: rgba(255,255,255,0.95) !important; color: #333 !important;">
+									<div class="hb-description">
+										<p style="color: #333 !important; font-weight: 500;">"Fine lines around my eyes and forehead were bothering me. At Radiance, I received Botox and RF skin tightening, and the change is amazing yet natural-looking. My face looks fresh and youthful again. Dr. Brijesha's approach is both artistic and scientific!"</p>
+									</div>
+								</div>
+								<div class="hb-testimonialutherbox">
+									<figure>
+										<img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=80&h=80&q=80" alt="Dr. Pooja Mehta">
+									</figure>
+									<div class="hb-uthername" style="background: rgba(255,255,255,0.9); padding: 10px; border-radius: 5px; margin-top: 10px;">
+										<h3 style="color: #0F3B4A !important; margin-bottom: 5px;">Dr. Pooja Mehta</h3>
+										<span style="color: #C59D2F !important; font-weight: bold;">42, Surat</span> -
+										<span class="hb-stars"><span></span></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</section>
+			<!--************************************
+						Testimonial End
+			*************************************-->
+			<!--************************************
+						Appointment Start
+			*************************************-->
+			<section id="hb-appointment" class="hb-appointment v4 hb-sectionspace hb-haslayout bg-grey">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-5">
+							<figure class="hb-appointmentimg">
+								<img src="./images/CLINIC-7.jpeg" alt="Professional consultation at Radiance Clinic">
+							</figure>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-7">
+							<div class="hb-sectionhead">
+								<div class="hb-sectiontitle">
+									<h2><span>Radiance Clinic</span>
+										Book Consultation
+									</h2>
+								</div>
+							</div>
+							<div class="hb-appointmentcontent">
+								<h3>Ready to Transform Your Skin?</h3>
+
+								<!-- Vision Statement -->
+								<div class="hb-vision-statement" style="margin: 20px 0; padding: 20px; background: rgba(245, 184, 47, 0.1); border-left: 4px solid #C59D2F; border-radius: 5px; text-align: center;">
+									<h4 style="color: #C59D2F; font-family: 'Arizonia', cursive; font-size: 18px; margin-bottom: 10px;">Our Vision</h4>
+									<p style="font-style: italic; color: #0F3B4A; line-height: 1.6; margin: 0;">To be the most trusted and advanced skin and hair care clinic in India, empowering individuals with science-based aesthetic solutions and compassionate care.</p>
+								</div>
+
+								<div class="hb-description">
+									<p>Call on: <strong>+91 6352214662 </strong> or fill out our online booking <span>& equiry form and we’ll contact you</span></p>
+								</div>
+								<div class="hb-btnarea">
+									<a href="contactus.html" class="hb-btn">Schedule Consultation</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--************************************
+						Appointment End
+		*************************************-->
+		</main>
+		<!--************************************
+				Main End
+		*************************************-->
+		<!--************************************
+				Footer Start
+		*************************************-->
+		<footer id="hb-footer" class="hb-footer hb-haslayout">
+			<div class="hb-footer-area">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col">
+								<strong class="hb-logo">
+									<a href="javascript:void"><img src="images/Radiance Clinic PNG 6.png" alt="Radiance Hair & Skin Clinic"></a>
+								</strong>
+								<div style="margin: 20px 0;">
+									<span class="hb-timeandday">Monday – Saturday:<br>10:00 AM to 1:00 PM &<br>5:00 PM to 8:00 PM<br><br>Sunday:<br>10:00 AM to 1:00 PM<br>(By Appointment Only)</span>
+								</div>
+								<ul class="list-unstyled hb-socialicons">
+									<li><a href="https://www.facebook.com/share/1E6cgenrGa/?mibextid=wwXIfr"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="https://youtube.com/@radiancehairandskinclinic?si=Kyvz1cy-JHv2C4Ap"><i class="fab fa-youtube"></i></a></li>
+									<li class="hb-googleplus"><a href="https://maps.app.goo.gl/A7m18x6ewWXGSXzu8?g_st=com.google.maps.preview.copy"><i class="fab fa-google-plus-g"></i></a></li>
+									<li><a href="https://www.instagram.com/radiance_hair_and_skin_clinic?igsh=MXFwbHdiZzI0bmRhMw=="><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col">
+								<h3>Contacts</h3>
+								<ul class="list-unstyled hb-info">
+									<li style="margin-bottom: 10px;"><span><strong>Phone:</strong><br>+916352214662</span></li>
+									<li style="margin-bottom: 15px;"><span><strong>Email:</strong><br><a href="mailto:radiance.srt@gmail.com">radiance.srt@gmail.com</a></span></li>
+									<li><span><strong>Address:</strong><br>408, 4th Floor, Green Palladia,<br>Opp. Raj World Shopping<em><br>Palanpore Gam, Adajan, Surat,<br>Gujarat (Pin-395009)</em></span></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col">
+								<h3>Quick Links</h3>
+								<div class="hb-description">
+									<ul style="list-style: none; padding: 0; margin: 0;">
+										<li style="margin-bottom: 8px;"><a href="index-4.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Home</a></li>
+										<li style="margin-bottom: 8px;"><a href="aboutus.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">About Us</a></li>
+										<li style="margin-bottom: 8px;"><a href="service.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Services</a></li>
+										<li style="margin-bottom: 8px;"><a href="gallery.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Gallery</a></li>
+										<li style="margin-bottom: 8px;"><a href="blog-classic.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Blog</a></li>
+										<li style="margin-bottom: 8px;"><a href="testimonials.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Testimonials</a></li>
+										<li style="margin-bottom: 8px;"><a href="faq.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">FAQ</a></li>
+										<li style="margin-bottom: 8px;"><a href="contactus.html" style="color: white; text-decoration: none; transition: color 0.3s ease;">Contact Us</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-3">
+							<div class="hb-col hb-widget">
+								<ul>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-1.jpeg" alt="HydraFacial treatment"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-2.jpeg" alt="Botox consultation"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-3.jpeg" alt="Microneedling treatment"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-4.jpeg" alt="Chemical peel"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-5.jpeg" alt="Laser treatment"></a></li>
+									<li><a href="javascript:void(0);"><img src="./images/CLINIC-6.jpeg" alt="Wellness consultation"></a></li>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hb-footerbar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<span class="hb-copyright" style="display: block; text-align: center;">
+								Copyright ©2025 Radiance Hair & Skin Clinic. All Rights Reserved.
+							  </span>
+							<ul class="list-unstyled hb-footernav">
+								<!-- <li><a href="./aboutus.html">About </a></li>
+								<li><a href="./contactus.html">Contact</a></li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--************************************
+				Footer End
+		*************************************-->
+		<span id="back-top" class="text-center rounded-circle fa fa-angle-up"></span>
+		<div id="loader" class="loader-holder">
+			<div class="block">
+			    <div class="dot white"></div>
+			    <div class="dot"></div>
+			    <div class="dot"></div>
+			    <div class="dot"></div>
+			    <div class="dot"></div>
+			</div>
+			<!-- Loader Text -->
+			<div class="loader-text">
+				<h3 class="loader-title">Welcome to Radiance</h3>
+				<p class="loader-subtitle">Hair & Skin Clinic</p>
+			</div>
+		</div>
+	</div>
+	<!--************************************
+			Wrapper End
+	*************************************-->
+	<script src="js/vendor/jquery-library.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/isotope.pkgd.js"></script>
+	<script src="js/isotop.js"></script>
+	<script src="js/html5lightbox.js"></script>
+	<script src="js/countTo.js"></script>
+	<script src="js/appear.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+  // About Us video cover click handler
+  document.addEventListener('DOMContentLoaded', function() {
+    var cover = document.getElementById('about-video-cover');
+    var iframeDiv = document.getElementById('about-video-iframe');
+    var ytIframe = document.getElementById('about-yt-iframe');
+    if (cover) {
+      cover.addEventListener('click', function() {
+        cover.style.display = 'none';
+        iframeDiv.style.display = 'block';
+        ytIframe.src = 'https://www.youtube.com/embed/MyB_Kp3u45w?autoplay=1&rel=0&showinfo=0';
+      });
+    }
+  });
+</script>
+</body>
+</html>
