@@ -9,13 +9,8 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static(__dirname));
 
-// Serve index.html for all non-API routes (for SPA or static hosting)
-app.get(/^\/(?!api\/).*/, (req, res) => {
-    res.sendFile(__dirname + '/index.html');
-});
-
+// API route FIRST
 app.post('/api/contact', async (req, res) => {
     const { name, email, phone, message } = req.body;
 
@@ -39,7 +34,7 @@ app.post('/api/contact', async (req, res) => {
 
         await transporter.sendMail({
             from: `"Radiance Hair & Skin Clinic" <${process.env.GMAIL_USER}>`,
-            to: process.env.TO_EMAIL || process.env.GMAIL_USER, 
+            to: process.env.TO_EMAIL || process.env.GMAIL_USER,
             subject: `New Contact Form Inquiry - ${name}`,
             html: `
                 <div style="font-family: 'Segoe UI', Arial, sans-serif; background: #f3f8fa; padding: 32px;">
@@ -75,7 +70,7 @@ app.post('/api/contact', async (req, res) => {
 
         await transporter.sendMail({
             from: `"Radiance Hair & Skin Clinic" <${process.env.GMAIL_USER}>`,
-            to: email, 
+            to: email,
             subject: 'Thank you for contacting Radiance Hair & Skin Clinic',
             html: `
                 <div style="font-family: 'Segoe UI', Arial, sans-serif; background: #f3f8fa; padding: 32px;">
@@ -106,6 +101,12 @@ app.post('/api/contact', async (req, res) => {
         console.error('Contact form error:', error);
         res.status(500).json({ success: false, message: 'Sorry, there was an error sending your message. Please try again later.' });
     }
+});
+
+// Static files and catch-all routes AFTER API
+app.use(express.static(__dirname));
+app.get(/^\/(?!api\/).*/, (req, res) => {
+    res.sendFile(__dirname + '/index.html');
 });
 
 app.listen(PORT, () => {
